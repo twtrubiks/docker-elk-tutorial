@@ -2,15 +2,15 @@
 
 docker-elk-tutorial📝
 
-* [Youtube Tutorial PART 1 - ELK 簡介](xxx)
-* [Youtube Tutorial PART 2 - docker ELK 環境建立](xxx)
-* [Youtube Tutorial PART 3 - 透過 python 送 log 到 ELK](xxx)
-* [Youtube Tutorial PART 4 - logging for Django + ELK](xxx)
-* [Youtube Tutorial PART 5 - docker logging + ELK](xxx)
+* [Youtube Tutorial PART 1 - ELK 簡介](https://youtu.be/T_sLKn3vXa4)
+* [Youtube Tutorial PART 2 - docker ELK 環境建立](https://youtu.be/4JybtoFgC8g)
+* [Youtube Tutorial PART 3 - 透過 python 送 log 到 ELK](https://youtu.be/EpEJGLzIK6A)
+* [Youtube Tutorial PART 4 - logging for Django + ELK](https://youtu.be/_bkx0FfNRpQ)
+* [Youtube Tutorial PART 5 - docker logging + ELK](https://youtu.be/gTqAjea4Ncg)
 
 ## 簡介
 
-* [Youtube Tutorial PART 1 - ELK 簡介](xxx)
+* [Youtube Tutorial PART 1 - ELK 簡介](https://youtu.be/T_sLKn3vXa4)
 
 docker-elk :question: 這是什麼:question:  他可以吃嗎:confused:
 
@@ -76,7 +76,7 @@ Docker ，可參考我之前的 Docker 教學文章
 
 ## docker ELK 環境建立
 
-* [Youtube Tutorial PART 2 - docker ELK 環境建立](xxx)
+* [Youtube Tutorial PART 2 - docker ELK 環境建立](https://youtu.be/4JybtoFgC8g)
 
 我們直接使用 [docker-elk](https://github.com/deviantony/docker-elk) 這邊的 docker-compose.yml 即可，但因為我擔心版本會
 
@@ -209,7 +209,7 @@ nc localhost 5000 < README.md
 
 ## 透過 python 送 log 到 ELK
 
-* [Youtube Tutorial PART 3 - 透過 python 送 log 到 ELK](xxx)
+* [Youtube Tutorial PART 3 - 透過 python 送 log 到 ELK](https://youtu.be/EpEJGLzIK6A)
 
 剛剛簡單的介紹 ELK，現在讓我們透過 python 送 log 到 ELK 吧 :satisfied:
 
@@ -272,7 +272,7 @@ log 訊息的確是我們剛剛送出去的
 
 ## logging for Django + ELK
 
-* [Youtube Tutorial PART 4 - logging for Django + ELK](xxx)
+* [Youtube Tutorial PART 4 - logging for Django + ELK](https://youtu.be/_bkx0FfNRpQ)
 
 剛剛介紹了如何透過 python 送 log 到 ELK 中，現在要教大家如何在 Django 中設定 logging :smirk:
 
@@ -362,7 +362,7 @@ def hello_view(request):
 
 以上註解的兩個地方，可以自行玩玩看，然後到 Kibana 中觀看，
 
-如果不太理解，可參考影片的說明  [Youtube Tutorial PART 4 - logging for Django + ELK](xxx)
+如果不太理解，可參考影片的說明  [Youtube Tutorial PART 4 - logging for Django + ELK](https://youtu.be/_bkx0FfNRpQ)
 
 `raise Exception('error !!!!')` 這行等於是 5XX responses，也就是 ERROR messages，
 
@@ -370,7 +370,7 @@ def hello_view(request):
 
 ## docker logging + ELK
 
-* [Youtube Tutorial PART 5 - docker logging + ELK](xxx)
+* [Youtube Tutorial PART 5 - docker logging + ELK](https://youtu.be/gTqAjea4Ncg)
 
 既然都講到這裡了，一定要來說一下如何將 docker 的 log 送到 ELK 中，
 
@@ -474,7 +474,7 @@ volumes:
 
 我本來是想要透過 Django 結合 Haystack 做個全文檢索的範例，但因為 Haystack 對於
 
-ElasticSearch的版本只支援到 2.X  ( ElasticSearch 都出到 6.X 了 )，最後就沒有將這範例
+ElasticSearch 的版本只支援到 2.X  ( ElasticSearch 都出到 6.X 了 )，最後就沒有將這範例
 
 寫出來了:sweat_smile:
 
