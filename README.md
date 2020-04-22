@@ -8,6 +8,8 @@ docker-elk-tutorial📝
 * [Youtube Tutorial PART 4 - logging for Django + ELK](https://youtu.be/_bkx0FfNRpQ)
 * [Youtube Tutorial PART 5 - docker logging + ELK](https://youtu.be/gTqAjea4Ncg)
 
+* 進階 [Youtube Tutorial - Linux 教學 - docker-elk-tutorial 7.6.0](https://youtu.be/iWFasUQ1tNQ) - [docker-elk-tutorial 7.6.0](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0)
+
 ## 簡介
 
 * [Youtube Tutorial PART 1 - ELK 簡介](https://youtu.be/T_sLKn3vXa4)
