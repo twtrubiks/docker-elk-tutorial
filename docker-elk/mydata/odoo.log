@@ -1,0 +1,1079 @@
+2020-03-31 03:17:58,892 1 INFO ? odoo: Odoo version 13.0-20200121 
+2020-03-31 03:17:58,892 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-31 03:17:58,892 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/13.0', '/mnt/extra-addons'] 
+2020-03-31 03:17:58,892 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-31 03:17:59,089 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-31 03:17:59,215 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on f00f411609d0:8069 
+2020-03-31 03:18:05,066 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-31 03:18:05,113 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2020-03-31 03:18:05,128 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-31 03:18:05,140 1 INFO odoo odoo.modules.loading: loading 23 modules... 
+2020-03-31 03:18:05,263 1 WARNING odoo odoo.models: Model attribute '_constraints' is no longer supported, please use @api.constrains on methods instead. 
+2020-03-31 03:18:05,475 1 INFO odoo odoo.modules.loading: 23 modules loaded in 0.33s, 0 queries 
+2020-03-31 03:18:05,780 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2020-03-31 03:18:05,786 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2020-03-31 03:18:05,889 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:05] "GET / HTTP/1.1" 303 - 13 0.045 0.775
+2020-03-31 03:18:05,898 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:05] "GET /web HTTP/1.1" 303 - 1 0.000 0.002
+2020-03-31 03:18:07,242 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/login HTTP/1.1" 200 - 278 0.116 1.223
+2020-03-31 03:18:07,309 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/547-d4caec7/web.assets_frontend.css HTTP/1.1" 200 - 9 0.011 0.020
+2020-03-31 03:18:07,312 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/548-ed746a2/web.assets_common_minimal_js.js HTTP/1.1" 200 - 8 0.015 0.018
+2020-03-31 03:18:07,314 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/541-04afe25/web.assets_common.css HTTP/1.1" 200 - 9 0.016 0.020
+2020-03-31 03:18:07,314 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/549-3a5eadd/web.assets_frontend_minimal_js.js HTTP/1.1" 200 - 8 0.016 0.019
+2020-03-31 03:18:07,320 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.002 0.002
+2020-03-31 03:18:07,363 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/static/src/fonts/google/Roboto/Roboto-Regular.ttf HTTP/1.1" 200 - - - -
+2020-03-31 03:18:07,380 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2020-03-31 03:18:07,417 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/550-550363e/web.assets_common_lazy.js HTTP/1.1" 200 - 6 0.003 0.013
+2020-03-31 03:18:07,546 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/content/551-9468549/web.assets_frontend_lazy.js HTTP/1.1" 200 - 6 0.001 0.004
+2020-03-31 03:18:07,565 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.005
+2020-03-31 03:18:07,573 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:18:07] "GET /web/webclient/translations/1585624687551?mods=&lang= HTTP/1.1" 200 - 9 0.010 0.005
+2020-03-31 03:18:59,284 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-03-31 03:18:59,317 1 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 8 checked, 1 removed 
+2020-03-31 03:18:59,334 1 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1] 
+2020-03-31 03:18:59,357 1 INFO odoo odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2020-03-31 03:18:59,361 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2020-03-31 03:18:59,362 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2020-03-31 03:18:59,374 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2020-03-31 03:18:59,375 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2020-03-31 03:18:59,389 1 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2020-03-31 03:18:59,390 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2020-03-31 03:18:59,402 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2020-03-31 03:18:59,403 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-03-31 03:18:59,419 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2020-03-31 03:18:59,420 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-03-31 03:18:59,435 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2020-03-31 03:18:59,436 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-03-31 03:18:59,450 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2020-03-31 03:18:59,450 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-03-31 03:18:59,459 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Notify channel moderators` done. 
+2020-03-31 03:18:59,460 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2020-03-31 03:19:01,003 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Publisher: Update Notification` done. 
+2020-03-31 03:21:35,874 1 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:odoo from 172.19.0.1 
+2020-03-31 03:21:35,880 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:35] "POST /web/login HTTP/1.1" 200 - 13 0.005 0.010
+2020-03-31 03:21:36,122 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:36] "GET /web/webclient/translations/1585624896108?mods=&lang= HTTP/1.1" 200 - 6 0.003 0.005
+2020-03-31 03:21:39,923 1 INFO odoo odoo.addons.base.models.res_users: Login successful for db:odoo login:admin from 172.19.0.1 
+2020-03-31 03:21:39,935 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:39] "POST /web/login HTTP/1.1" 303 - 33 0.024 0.035
+2020-03-31 03:21:40,279 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web HTTP/1.1" 200 - 248 0.105 0.233
+2020-03-31 03:21:40,341 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/webclient/load_menus/9530347e65e8109627b33a8e8004d060011d12b1 HTTP/1.1" 200 - 1 0.001 0.010
+2020-03-31 03:21:40,350 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/content/545-88e54f0/web.assets_backend.css HTTP/1.1" 200 - 5 0.005 0.019
+2020-03-31 03:21:40,368 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/content/543-04afe25/web.assets_common.js HTTP/1.1" 200 - 5 0.006 0.034
+2020-03-31 03:21:40,368 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/content/546-88e54f0/web.assets_backend.js HTTP/1.1" 200 - 5 0.010 0.030
+2020-03-31 03:21:40,603 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/webclient/qweb/4aea525345031a5d6034eb11aef1c0172150bcd2?mods=base,web,base_setup,bus,web_tour,mail,resource,mail_bot,hr,auth_signup,auto_backup,base_import,hr_org_chart,iap,partner_autocomplete,sms,snailmail,web_diagram,web_editor,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.000 0.015
+2020-03-31 03:21:40,707 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/webclient/translations/026ae15487c2067877f7b82ffb991974c070d399?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cresource%2Cmail_bot%2Chr%2Cauth_signup%2Cauto_backup%2Cbase_import%2Chr_org_chart%2Ciap%2Cpartner_autocomplete%2Csms%2Csnailmail%2Cweb_diagram%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:21:40,763 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:40,771 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2020-03-31 03:21:40,788 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.003 0.007
+2020-03-31 03:21:40,803 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.007
+2020-03-31 03:21:40,816 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /mail/init_messaging HTTP/1.1" 200 - 75 0.056 0.036
+2020-03-31 03:21:40,830 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 21 0.026 0.019
+2020-03-31 03:21:40,844 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/action/load HTTP/1.1" 200 - 14 0.012 0.010
+2020-03-31 03:21:40,873 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2020-03-31 03:21:40,899 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 30 0.015 0.017
+2020-03-31 03:21:40,927 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 12 0.004 0.005
+2020-03-31 03:21:40,995 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:40] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.005 0.005
+2020-03-31 03:21:41,118 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:41] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 15 0.006 0.010
+2020-03-31 03:21:44,423 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "POST /web/action/load HTTP/1.1" 200 - 40 0.026 0.018
+2020-03-31 03:21:44,528 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 96 0.043 0.050
+2020-03-31 03:21:44,586 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2020-03-31 03:21:44,682 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,682 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,684 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,684 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,686 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,692 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,692 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /account/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,694 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,696 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,702 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,704 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,706 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,713 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,714 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,715 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /note/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,716 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,719 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,719 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,726 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,734 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,750 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,752 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,753 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /board/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,754 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,755 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,758 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,759 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,761 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,762 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,763 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/project_forecast.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,766 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,767 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,769 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,770 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,773 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,773 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,773 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,786 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,791 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,795 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,795 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,796 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,798 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,801 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,801 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,802 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,810 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,811 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,812 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /repair/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,813 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:44,814 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:44] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:47,311 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['project'] to user admin #2 via 172.19.0.1 
+2020-03-31 03:21:47,311 1 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2020-03-31 03:21:47,313 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['project'] to user admin #2 via 172.19.0.1 
+2020-03-31 03:21:47,435 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2020-03-31 03:21:47,447 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-31 03:21:47,564 1 INFO odoo odoo.modules.loading: updating modules list 
+2020-03-31 03:21:47,565 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.19.0.1 
+2020-03-31 03:21:48,026 1 INFO odoo odoo.modules.loading: loading 23 modules... 
+2020-03-31 03:21:48,026 1 WARNING odoo odoo.models: Model attribute '_constraints' is no longer supported, please use @api.constrains on methods instead. 
+2020-03-31 03:21:48,089 1 INFO odoo odoo.modules.loading: 23 modules loaded in 0.06s, 0 queries 
+2020-03-31 03:21:48,092 1 INFO odoo odoo.modules.loading: loading 30 modules... 
+2020-03-31 03:21:48,246 1 INFO odoo odoo.modules.registry: module uom: creating or updating database tables 
+2020-03-31 03:21:48,338 1 INFO odoo odoo.models: Storing computed values of measure_type 
+2020-03-31 03:21:48,401 1 INFO odoo odoo.modules.loading: loading uom/data/uom_data.xml 
+2020-03-31 03:21:48,457 1 INFO odoo odoo.modules.loading: loading uom/security/uom_security.xml 
+2020-03-31 03:21:48,540 1 INFO odoo odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2020-03-31 03:21:48,563 1 INFO odoo odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2020-03-31 03:21:48,634 1 INFO odoo odoo.modules.loading: Module uom: loading demo 
+2020-03-31 03:21:48,868 1 INFO odoo odoo.modules.registry: module http_routing: creating or updating database tables 
+2020-03-31 03:21:48,906 1 INFO odoo odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2020-03-31 03:21:48,971 1 INFO odoo odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2020-03-31 03:21:49,010 1 INFO odoo odoo.modules.loading: Module http_routing: loading demo 
+2020-03-31 03:21:49,184 1 INFO odoo odoo.modules.registry: module analytic: creating or updating database tables 
+2020-03-31 03:21:49,247 1 INFO odoo odoo.models: Computing parent_path for table account_analytic_group... 
+2020-03-31 03:21:49,362 1 INFO odoo odoo.models: Storing computed values of complete_name 
+2020-03-31 03:21:49,413 1 INFO odoo odoo.models: Storing computed values of currency_id 
+2020-03-31 03:21:49,413 1 INFO odoo odoo.models: Storing computed values of group_id 
+2020-03-31 03:21:49,444 1 INFO odoo odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2020-03-31 03:21:49,597 1 INFO odoo odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2020-03-31 03:21:49,623 1 INFO odoo odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2020-03-31 03:21:49,842 1 INFO odoo odoo.modules.loading: Module analytic: loading demo 
+2020-03-31 03:21:49,843 1 INFO odoo odoo.modules.loading: loading analytic/data/analytic_demo.xml 
+2020-03-31 03:21:49,848 1 INFO odoo odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2020-03-31 03:21:50,212 1 INFO odoo odoo.modules.registry: module rating: creating or updating database tables 
+2020-03-31 03:21:50,315 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:50] "GET /web/static/src/img/spin.png HTTP/1.1" 200 - - - -
+2020-03-31 03:21:50,411 1 INFO odoo odoo.models: Storing computed values of res_name 
+2020-03-31 03:21:50,411 1 INFO odoo odoo.models: Storing computed values of res_model 
+2020-03-31 03:21:50,411 1 INFO odoo odoo.models: Storing computed values of parent_res_name 
+2020-03-31 03:21:50,411 1 INFO odoo odoo.models: Storing computed values of parent_res_model 
+2020-03-31 03:21:50,411 1 INFO odoo odoo.models: Storing computed values of rating_text 
+2020-03-31 03:21:50,658 1 INFO odoo odoo.modules.loading: loading rating/views/rating_view.xml 
+2020-03-31 03:21:50,755 1 INFO odoo odoo.modules.loading: loading rating/views/rating_template.xml 
+2020-03-31 03:21:50,779 1 INFO odoo odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2020-03-31 03:21:50,802 1 INFO odoo odoo.modules.loading: Module rating: loading demo 
+2020-03-31 03:21:51,059 1 INFO odoo odoo.modules.registry: module portal: creating or updating database tables 
+2020-03-31 03:21:51,531 1 INFO odoo odoo.modules.loading: loading portal/data/portal_data.xml 
+2020-03-31 03:21:51,553 1 INFO odoo odoo.modules.loading: loading portal/views/assets.xml 
+2020-03-31 03:21:51,635 1 INFO odoo odoo.modules.loading: loading portal/views/portal_templates.xml 
+2020-03-31 03:21:51,882 1 INFO odoo odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2020-03-31 03:21:51,903 1 INFO odoo odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2020-03-31 03:21:51,924 1 INFO odoo odoo.modules.loading: Module portal: loading demo 
+2020-03-31 03:21:52,163 1 INFO odoo odoo.modules.registry: module digest: creating or updating database tables 
+2020-03-31 03:21:52,334 1 INFO odoo odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2020-03-31 03:21:52,354 1 INFO odoo odoo.modules.loading: loading digest/data/digest_template_data.xml 
+2020-03-31 03:21:52,361 1 INFO odoo odoo.modules.loading: loading digest/data/digest_data.xml 
+2020-03-31 03:21:52,380 1 INFO odoo odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2020-03-31 03:21:52,392 1 INFO odoo odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2020-03-31 03:21:52,399 1 INFO odoo odoo.modules.loading: loading digest/views/digest_views.xml 
+2020-03-31 03:21:52,477 1 INFO odoo odoo.modules.loading: loading digest/views/digest_templates.xml 
+2020-03-31 03:21:52,486 1 INFO odoo odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2020-03-31 03:21:52,565 1 INFO odoo odoo.modules.loading: Module digest: loading demo 
+2020-03-31 03:21:52,788 1 INFO odoo odoo.modules.registry: module project: creating or updating database tables 
+2020-03-31 03:21:53,174 1 INFO odoo odoo.models: Storing computed values of rating_request_deadline 
+2020-03-31 03:21:53,239 1 INFO odoo odoo.models: Storing computed values of rating_last_value 
+2020-03-31 03:21:53,239 1 INFO odoo odoo.models: Storing computed values of working_hours_open 
+2020-03-31 03:21:53,239 1 INFO odoo odoo.models: Storing computed values of working_hours_close 
+2020-03-31 03:21:53,239 1 INFO odoo odoo.models: Storing computed values of working_days_open 
+2020-03-31 03:21:53,239 1 INFO odoo odoo.models: Storing computed values of working_days_close 
+2020-03-31 03:21:53,400 1 INFO odoo odoo.modules.loading: loading project/security/project_security.xml 
+2020-03-31 03:21:53,926 1 INFO odoo odoo.modules.loading: loading project/security/ir.model.access.csv 
+2020-03-31 03:21:54,013 1 INFO odoo odoo.modules.loading: loading project/report/project_report_views.xml 
+2020-03-31 03:21:54,081 1 INFO odoo odoo.modules.loading: loading project/views/analytic_views.xml 
+2020-03-31 03:21:54,110 1 INFO odoo odoo.modules.loading: loading project/views/digest_views.xml 
+2020-03-31 03:21:54,158 1 INFO odoo odoo.modules.loading: loading project/views/rating_views.xml 
+2020-03-31 03:21:54,197 1 INFO odoo odoo.modules.loading: loading project/views/project_views.xml 
+2020-03-31 03:21:54,784 1 INFO odoo odoo.modules.loading: loading project/views/res_partner_views.xml 
+2020-03-31 03:21:54,872 1 INFO odoo odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2020-03-31 03:21:54,989 1 INFO odoo odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2020-03-31 03:21:55,000 1 INFO odoo odoo.modules.loading: loading project/views/project_assets.xml 
+2020-03-31 03:21:55,107 1 INFO odoo odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2020-03-31 03:21:55,194 1 INFO odoo odoo.modules.loading: loading project/views/project_rating_templates.xml 
+2020-03-31 03:21:55,256 1 INFO odoo odoo.modules.loading: loading project/data/digest_data.xml 
+2020-03-31 03:21:55,269 1 INFO odoo odoo.modules.loading: loading project/data/project_mail_template_data.xml 
+2020-03-31 03:21:55,280 1 INFO odoo odoo.modules.loading: loading project/data/project_data.xml 
+2020-03-31 03:21:55,608 1 INFO odoo odoo.modules.loading: Module project: loading demo 
+2020-03-31 03:21:55,608 1 INFO odoo odoo.modules.loading: loading project/data/project_demo.xml 
+2020-03-31 03:21:56,001 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,002 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<421731957871911.1585624915.929061651229858-openerp-13-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,027 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
+2020-03-31 03:21:56,027 1 INFO odoo odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2020-03-31 03:21:56,473 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,473 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<828758750674421.1585624916.440702438354492-openerp-30-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,569 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [2] 
+2020-03-31 03:21:56,570 1 INFO odoo odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2020-03-31 03:21:56,794 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,794 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<002150730257261.1585624916.672698020935059-openerp-15-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,812 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [3] 
+2020-03-31 03:21:56,822 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,824 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<002150730257261.1585624916.672698020935059-openerp-15-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,834 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [4] 
+2020-03-31 03:21:56,834 1 INFO odoo odoo.addons.mail.models.mail_mail: Sent batch 2 emails via mail server ID #False 
+2020-03-31 03:21:56,892 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,892 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 5 and Message-Id '<742245778113909.1585624916.848664283752441-openerp-29-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,905 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [5] 
+2020-03-31 03:21:56,914 1 INFO odoo odoo.tests: skip sending email in test mode 
+2020-03-31 03:21:56,915 1 INFO odoo odoo.addons.mail.models.mail_mail: Mail with ID 6 and Message-Id '<742245778113909.1585624916.848664283752441-openerp-29-project.task@f00f411609d0>' successfully sent 
+2020-03-31 03:21:56,925 1 INFO odoo odoo.models.unlink: User #1 deleted mail.mail records with IDs: [6] 
+2020-03-31 03:21:56,926 1 INFO odoo odoo.addons.mail.models.mail_mail: Sent batch 2 emails via mail server ID #False 
+2020-03-31 03:21:56,987 1 INFO odoo odoo.modules.loading: 30 modules loaded in 8.90s, 3 queries 
+2020-03-31 03:21:57,295 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2020-03-31 03:21:57,300 1 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-31 03:21:57,303 1 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-31 03:21:57,305 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:21:57] "POST /web/dataset/call_button HTTP/1.1" 200 - 10120 4.264 5.734
+2020-03-31 03:21:57,352 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2020-03-31 03:21:57,837 1 INFO odoo odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [541] 
+2020-03-31 03:21:58,523 1 INFO odoo odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [545] 
+2020-03-31 03:21:59,353 1 INFO odoo odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [543] 
+2020-03-31 03:22:00,407 1 INFO odoo odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [546] 
+2020-03-31 03:22:00,439 1 INFO odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-03-31 03:22:00,440 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web HTTP/1.1" 200 - 747 0.314 2.776
+2020-03-31 03:22:00,506 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/content/556-03e0943/web.assets_common.js HTTP/1.1" 200 - 7 0.015 0.028
+2020-03-31 03:22:00,507 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/content/555-9da6ff6/web.assets_backend.css HTTP/1.1" 200 - 7 0.012 0.033
+2020-03-31 03:22:00,509 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/content/557-9da6ff6/web.assets_backend.js HTTP/1.1" 200 - 5 0.010 0.033
+2020-03-31 03:22:00,510 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/content/554-03e0943/web.assets_common.css HTTP/1.1" 200 - 6 0.011 0.036
+2020-03-31 03:22:00,637 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/webclient/load_menus/2d0d9a6101317a55800fbfec49021c4d8dbc85a0 HTTP/1.1" 200 - 151 0.078 0.080
+2020-03-31 03:22:00,750 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/webclient/qweb/fb35be40fb33d6ebb6c6fcb4234e44d43bffaa23?mods=base,web,base_setup,bus,web_tour,mail,web_editor,auth_signup,portal,rating,resource,digest,project,mail_bot,hr,auto_backup,base_import,hr_org_chart,iap,partner_autocomplete,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.000 0.015
+2020-03-31 03:22:00,875 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/webclient/translations/026ae15487c2067877f7b82ffb991974c070d399?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cweb_editor%2Cauth_signup%2Cportal%2Crating%2Cresource%2Cdigest%2Cproject%2Cmail_bot%2Chr%2Cauto_backup%2Cbase_import%2Chr_org_chart%2Ciap%2Cpartner_autocomplete%2Csms%2Csnailmail%2Cweb_diagram%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.001 0.004
+2020-03-31 03:22:00,947 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.004
+2020-03-31 03:22:00,967 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.011
+2020-03-31 03:22:00,988 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 21 0.019 0.018
+2020-03-31 03:22:00,989 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:00] "POST /mail/init_messaging HTTP/1.1" 200 - 75 0.062 0.037
+2020-03-31 03:22:01,005 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "POST /web/action/load HTTP/1.1" 200 - 14 0.008 0.010
+2020-03-31 03:22:01,033 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "POST /longpolling/poll HTTP/1.1" 200 - 24 0.011 0.017
+2020-03-31 03:22:01,063 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 30 0.020 0.023
+2020-03-31 03:22:01,064 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "GET /rating/static/src/img/rating_1.png HTTP/1.1" 200 - - - -
+2020-03-31 03:22:01,074 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "GET /rating/static/src/img/rating_10.png HTTP/1.1" 200 - - - -
+2020-03-31 03:22:01,093 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 14 0.004 0.007
+2020-03-31 03:22:01,157 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:01] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.003 0.005
+2020-03-31 03:22:01,187 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-03-31 03:22:01,201 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2020-03-31 03:22:01,203 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Project: Send rating`. 
+2020-03-31 03:22:01,215 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Project: Send rating` done. 
+2020-03-31 03:22:17,016 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:17] "POST /web/action/load HTTP/1.1" 200 - 40 0.021 0.020
+2020-03-31 03:22:17,125 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:17] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 97 0.039 0.053
+2020-03-31 03:22:17,194 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2020-03-31 03:22:23,779 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:23] "POST /web/action/load HTTP/1.1" 200 - 50 0.021 0.026
+2020-03-31 03:22:23,843 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:23] "POST /web/dataset/call_kw/project.project/load_views HTTP/1.1" 200 - 42 0.015 0.036
+2020-03-31 03:22:23,914 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:23] "POST /web/dataset/search_read HTTP/1.1" 200 - 33 0.016 0.014
+2020-03-31 03:22:25,327 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:25] "POST /web/action/load HTTP/1.1" 200 - 24 0.008 0.014
+2020-03-31 03:22:25,359 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:25] "POST /web/dataset/call_kw/project.project/load_views HTTP/1.1" 200 - 17 0.006 0.015
+2020-03-31 03:22:25,403 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:25] "POST /web/dataset/call_kw/project.project/default_get HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-31 03:22:25,446 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:25] "GET /web/static/src/xml/dialog.xml HTTP/1.1" 200 - - - -
+2020-03-31 03:22:26,786 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 11 0.005 0.009
+2020-03-31 03:22:27,257 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/action/load HTTP/1.1" 200 - 52 0.019 0.026
+2020-03-31 03:22:27,432 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.task/load_views HTTP/1.1" 200 - 87 0.030 0.121
+2020-03-31 03:22:27,459 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.project/name_get HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-31 03:22:27,492 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.task/web_read_group HTTP/1.1" 200 - 4 0.006 0.006
+2020-03-31 03:22:27,493 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.task/read_progress_bar HTTP/1.1" 200 - 4 0.006 0.007
+2020-03-31 03:22:27,530 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 16 0.016 0.012
+2020-03-31 03:22:27,537 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 17 0.014 0.017
+2020-03-31 03:22:27,557 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.tags/read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:22:27,571 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "POST /web/dataset/call_kw/project.task.type/read HTTP/1.1" 200 - 2 0.002 0.003
+2020-03-31 03:22:27,623 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 - - - -
+2020-03-31 03:22:27,628 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:27] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 200 - 8 0.004 0.011
+2020-03-31 03:22:29,772 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:29] "POST /web/dataset/call_kw/project.task/load_views HTTP/1.1" 200 - 11 0.003 0.013
+2020-03-31 03:22:29,792 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:29] "POST /web/dataset/call_kw/project.task/default_get HTTP/1.1" 200 - 4 0.002 0.004
+2020-03-31 03:22:29,851 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:29] "POST /web/dataset/call_kw/project.task/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2020-03-31 03:22:29,880 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:29] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 3 0.002 0.006
+2020-03-31 03:22:30,876 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:30] "POST /longpolling/poll HTTP/1.1" 200 - 21 0.017 50.016
+2020-03-31 03:22:32,159 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/create HTTP/1.1" 200 - 122 0.058 0.090
+2020-03-31 03:22:32,164 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.007 31.115
+2020-03-31 03:22:32,188 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/read HTTP/1.1" 200 - 11 0.009 0.010
+2020-03-31 03:22:32,207 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/read_progress_bar HTTP/1.1" 200 - 4 0.005 0.005
+2020-03-31 03:22:32,209 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/web_read_group HTTP/1.1" 200 - 4 0.004 0.008
+2020-03-31 03:22:32,223 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task.type/read HTTP/1.1" 200 - 2 0.001 0.004
+2020-03-31 03:22:32,263 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/default_get HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:22:32,274 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/project.task/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-31 03:22:32,289 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:32] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 3 0.002 0.006
+2020-03-31 03:22:35,870 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:35] "POST /web/dataset/call_kw/project.task/default_get HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:22:35,882 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:35] "POST /web/dataset/call_kw/project.task/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-31 03:22:35,900 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:35] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 3 0.001 0.005
+2020-03-31 03:22:38,561 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/create HTTP/1.1" 200 - 68 0.037 0.062
+2020-03-31 03:22:38,567 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.007 6.387
+2020-03-31 03:22:38,591 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/read HTTP/1.1" 200 - 11 0.007 0.011
+2020-03-31 03:22:38,616 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/web_read_group HTTP/1.1" 200 - 4 0.005 0.008
+2020-03-31 03:22:38,616 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/read_progress_bar HTTP/1.1" 200 - 4 0.004 0.008
+2020-03-31 03:22:38,634 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task.type/read HTTP/1.1" 200 - 2 0.001 0.004
+2020-03-31 03:22:38,689 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/default_get HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:22:38,703 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/project.task/onchange HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-31 03:22:38,719 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:38] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 3 0.002 0.005
+2020-03-31 03:22:39,337 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 11 0.005 0.010
+2020-03-31 03:22:42,189 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
+2020-03-31 03:22:42,218 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:22:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
+2020-03-31 03:23:01,837 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:01] "GET /web/session/logout HTTP/1.1" 303 - 1 0.000 0.003
+2020-03-31 03:23:01,849 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:01] "GET /web HTTP/1.1" 303 - 1 0.000 0.002
+2020-03-31 03:23:02,408 1 INFO odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [547] 
+2020-03-31 03:23:03,304 1 INFO odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [550] 
+2020-03-31 03:23:03,442 1 INFO odoo odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [551] 
+2020-03-31 03:23:03,447 1 INFO odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-03-31 03:23:03,448 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:03] "GET /web/login HTTP/1.1" 200 - 561 0.203 1.388
+2020-03-31 03:23:03,483 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:03] "GET /web/content/558-f2cf482/web.assets_frontend.css HTTP/1.1" 200 - 9 0.004 0.009
+2020-03-31 03:23:03,566 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:03] "GET /web/content/559-ef6ae6f/web.assets_common_lazy.js HTTP/1.1" 200 - 6 0.002 0.013
+2020-03-31 03:23:03,691 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:03] "GET /web/content/560-e707559/web.assets_frontend_lazy.js HTTP/1.1" 200 - 6 0.002 0.005
+2020-03-31 03:23:03,718 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:03] "GET /website/translations/7c5e66161cd59d1ae173856a429298e87ad7910d?mods=&lang= HTTP/1.1" 200 - 16 0.008 0.009
+2020-03-31 03:23:06,165 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/database/manager HTTP/1.1" 200 - 4 0.003 0.069
+2020-03-31 03:23:06,218 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,219 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,222 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,227 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,231 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,231 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,236 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,238 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,245 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,247 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,248 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,248 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,252 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,254 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,255 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,257 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2020-03-31 03:23:06,260 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:06] "GET /web/static/src/img/logo2.png HTTP/1.1" 200 - - - -
+2020-03-31 03:23:18,445 1 INFO None odoo.service.db: Create database `twtrubiks`. 
+2020-03-31 03:23:19,302 1 INFO twtrubiks odoo.modules.loading: loading 1 modules... 
+2020-03-31 03:23:19,438 1 INFO twtrubiks odoo.modules.registry: module base: creating or updating database tables 
+2020-03-31 03:23:19,766 1 INFO twtrubiks odoo.models: Computing parent_path for table ir_ui_menu... 
+2020-03-31 03:23:20,745 1 INFO twtrubiks odoo.models: Computing parent_path for table res_partner_category... 
+2020-03-31 03:23:21,346 1 INFO twtrubiks odoo.models: Storing computed values of relation_field_id 
+2020-03-31 03:23:21,346 1 INFO twtrubiks odoo.models: Storing computed values of related_field_id 
+2020-03-31 03:23:21,582 1 INFO twtrubiks odoo.models: Storing computed values of model_name 
+2020-03-31 03:23:21,673 1 INFO twtrubiks odoo.models: Storing computed values of cron_name 
+2020-03-31 03:23:21,737 1 INFO twtrubiks odoo.models: Storing computed values of global 
+2020-03-31 03:23:21,870 1 INFO twtrubiks odoo.models: Storing computed values of menus_by_module 
+2020-03-31 03:23:21,870 1 INFO twtrubiks odoo.models: Storing computed values of reports_by_module 
+2020-03-31 03:23:21,870 1 INFO twtrubiks odoo.models: Storing computed values of views_by_module 
+2020-03-31 03:23:22,048 1 INFO twtrubiks odoo.models: Storing computed values of display_name 
+2020-03-31 03:23:22,048 1 INFO twtrubiks odoo.models: Storing computed values of partner_share 
+2020-03-31 03:23:22,048 1 INFO twtrubiks odoo.models: Storing computed values of commercial_partner_id 
+2020-03-31 03:23:22,048 1 INFO twtrubiks odoo.models: Storing computed values of commercial_company_name 
+2020-03-31 03:23:22,084 1 INFO twtrubiks odoo.models: Storing computed values of sanitized_acc_number 
+2020-03-31 03:23:22,118 1 INFO twtrubiks odoo.models: Storing computed values of decimal_places 
+2020-03-31 03:23:22,159 1 INFO twtrubiks odoo.models: Storing computed values of logo_web 
+2020-03-31 03:23:22,159 1 INFO twtrubiks odoo.models: Storing computed values of email 
+2020-03-31 03:23:22,159 1 INFO twtrubiks odoo.models: Storing computed values of phone 
+2020-03-31 03:23:22,214 1 INFO twtrubiks odoo.models: Storing computed values of share 
+2020-03-31 03:23:22,647 1 INFO twtrubiks odoo.modules.loading: loading base/data/res.lang.csv 
+2020-03-31 03:23:22,724 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_lang_data.xml 
+2020-03-31 03:23:22,734 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_partner_data.xml 
+2020-03-31 03:23:22,797 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_company_data.xml 
+2020-03-31 03:23:22,811 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_users_data.xml 
+2020-03-31 03:23:22,895 1 INFO twtrubiks odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2020-03-31 03:23:22,904 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_currency_data.xml 
+2020-03-31 03:23:23,180 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_country_data.xml 
+2020-03-31 03:23:23,975 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2020-03-31 03:23:24,064 1 INFO twtrubiks odoo.modules.loading: loading base/security/base_groups.xml 
+2020-03-31 03:23:24,188 1 INFO twtrubiks odoo.modules.loading: loading base/security/base_security.xml 
+2020-03-31 03:23:24,322 1 INFO twtrubiks odoo.modules.loading: loading base/views/base_menus.xml 
+2020-03-31 03:23:24,421 1 INFO twtrubiks odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2020-03-31 03:23:24,452 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_config_views.xml 
+2020-03-31 03:23:24,471 1 INFO twtrubiks odoo.modules.loading: loading base/data/res.country.state.csv 
+2020-03-31 03:23:25,324 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2020-03-31 03:23:25,559 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2020-03-31 03:23:25,600 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2020-03-31 03:23:25,664 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2020-03-31 03:23:25,704 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2020-03-31 03:23:25,748 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_model_views.xml 
+2020-03-31 03:23:26,088 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2020-03-31 03:23:26,149 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2020-03-31 03:23:26,199 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2020-03-31 03:23:26,257 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2020-03-31 03:23:26,334 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2020-03-31 03:23:26,389 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2020-03-31 03:23:26,499 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_default_views.xml 
+2020-03-31 03:23:26,547 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2020-03-31 03:23:26,556 1 INFO twtrubiks odoo.modules.loading: loading base/report/ir_model_report.xml 
+2020-03-31 03:23:26,562 1 INFO twtrubiks odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2020-03-31 03:23:26,581 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2020-03-31 03:23:26,624 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2020-03-31 03:23:26,645 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_module_views.xml 
+2020-03-31 03:23:26,778 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2020-03-31 03:23:26,858 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_module_module.xml 
+2020-03-31 03:23:26,951 1 INFO twtrubiks odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2020-03-31 03:23:26,955 1 INFO twtrubiks odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2020-03-31 03:23:26,975 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2020-03-31 03:23:26,997 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2020-03-31 03:23:27,019 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2020-03-31 03:23:27,041 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2020-03-31 03:23:27,075 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2020-03-31 03:23:27,095 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2020-03-31 03:23:27,117 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2020-03-31 03:23:27,138 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2020-03-31 03:23:27,166 1 INFO twtrubiks odoo.modules.loading: loading base/wizard/base_document_layout_views.xml 
+2020-03-31 03:23:27,199 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2020-03-31 03:23:27,206 1 INFO twtrubiks odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2020-03-31 03:23:27,228 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_company_views.xml 
+2020-03-31 03:23:27,286 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_lang_views.xml 
+2020-03-31 03:23:27,334 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_partner_views.xml 
+2020-03-31 03:23:27,608 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_bank_views.xml 
+2020-03-31 03:23:27,694 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_country_views.xml 
+2020-03-31 03:23:27,782 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_currency_views.xml 
+2020-03-31 03:23:27,875 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_users_views.xml 
+2020-03-31 03:23:28,130 1 INFO twtrubiks odoo.modules.loading: loading base/views/ir_property_views.xml 
+2020-03-31 03:23:28,180 1 INFO twtrubiks odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2020-03-31 03:23:28,197 1 INFO twtrubiks odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2020-03-31 03:23:28,243 1 INFO twtrubiks odoo.modules.loading: loading base/views/onboarding_views.xml 
+2020-03-31 03:23:28,307 1 INFO twtrubiks odoo.modules.loading: loading base/security/ir.model.access.csv 
+2020-03-31 03:23:28,538 1 INFO twtrubiks odoo.modules.loading: Module base: loading demo 
+2020-03-31 03:23:28,539 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_company_demo.xml 
+2020-03-31 03:23:28,553 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_users_demo.xml 
+2020-03-31 03:23:28,714 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2020-03-31 03:23:28,724 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2020-03-31 03:23:28,992 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2020-03-31 03:23:28,998 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2020-03-31 03:23:29,236 1 INFO twtrubiks odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2020-03-31 03:23:29,589 1 INFO twtrubiks odoo.modules.loading: 1 modules loaded in 10.29s, 0 queries 
+2020-03-31 03:23:29,630 1 INFO twtrubiks odoo.modules.loading: updating modules list 
+2020-03-31 03:23:29,630 1 INFO twtrubiks odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.19.0.1 
+2020-03-31 03:23:30,005 1 INFO twtrubiks odoo.modules.loading: loading 7 modules... 
+2020-03-31 03:23:30,176 1 INFO twtrubiks odoo.modules.registry: module web: creating or updating database tables 
+2020-03-31 03:23:31,175 1 INFO twtrubiks odoo.modules.loading: loading web/security/ir.model.access.csv 
+2020-03-31 03:23:31,177 1 INFO twtrubiks odoo.modules.loading: loading web/views/webclient_templates.xml 
+2020-03-31 03:23:31,462 1 INFO twtrubiks odoo.modules.loading: loading web/views/report_templates.xml 
+2020-03-31 03:23:31,601 1 INFO twtrubiks odoo.modules.loading: loading web/data/report_layout.xml 
+2020-03-31 03:23:31,617 1 INFO twtrubiks odoo.modules.loading: Module web: loading demo 
+2020-03-31 03:23:31,869 1 INFO twtrubiks odoo.modules.registry: module base_import: creating or updating database tables 
+2020-03-31 03:23:33,264 1 INFO twtrubiks odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2020-03-31 03:23:33,324 1 INFO twtrubiks odoo.modules.loading: loading base_import/views/base_import_templates.xml 
+2020-03-31 03:23:33,384 1 INFO twtrubiks odoo.modules.loading: Module base_import: loading demo 
+2020-03-31 03:23:33,473 1 INFO twtrubiks odoo.modules.registry: module web_diagram: creating or updating database tables 
+2020-03-31 03:23:33,481 1 INFO twtrubiks odoo.modules.loading: loading web_diagram/views/web_diagram_templates.xml 
+2020-03-31 03:23:33,513 1 INFO twtrubiks odoo.modules.loading: Module web_diagram: loading demo 
+2020-03-31 03:23:33,618 1 INFO twtrubiks odoo.modules.registry: module web_editor: creating or updating database tables 
+2020-03-31 03:23:33,774 1 INFO twtrubiks odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2020-03-31 03:23:33,787 1 INFO twtrubiks odoo.modules.loading: loading web_editor/views/editor.xml 
+2020-03-31 03:23:33,972 1 INFO twtrubiks odoo.modules.loading: loading web_editor/views/snippets.xml 
+2020-03-31 03:23:33,997 1 INFO twtrubiks odoo.modules.loading: Module web_editor: loading demo 
+2020-03-31 03:23:34,086 1 INFO twtrubiks odoo.modules.registry: module web_kanban_gauge: creating or updating database tables 
+2020-03-31 03:23:34,096 1 INFO twtrubiks odoo.modules.loading: loading web_kanban_gauge/views/web_kanban_gauge_templates.xml 
+2020-03-31 03:23:34,134 1 INFO twtrubiks odoo.modules.loading: Module web_kanban_gauge: loading demo 
+2020-03-31 03:23:34,218 1 INFO twtrubiks odoo.modules.registry: module web_tour: creating or updating database tables 
+2020-03-31 03:23:34,257 1 INFO twtrubiks odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2020-03-31 03:23:34,271 1 INFO twtrubiks odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2020-03-31 03:23:34,282 1 INFO twtrubiks odoo.modules.loading: loading web_tour/views/tour_templates.xml 
+2020-03-31 03:23:34,350 1 INFO twtrubiks odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2020-03-31 03:23:34,388 1 INFO twtrubiks odoo.modules.loading: Module web_tour: loading demo 
+2020-03-31 03:23:34,389 1 INFO twtrubiks odoo.modules.loading: loading web_tour/data/web_tour_demo.xml 
+2020-03-31 03:23:34,433 1 INFO twtrubiks odoo.modules.loading: 7 modules loaded in 4.43s, 0 queries 
+2020-03-31 03:23:34,619 1 INFO twtrubiks odoo.modules.loading: Modules loaded. 
+2020-03-31 03:23:34,626 1 INFO odoo werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:34] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.007 56.042
+2020-03-31 03:23:34,699 1 INFO twtrubiks odoo.addons.base.models.res_users: Login successful for db:twtrubiks login:admin from 172.19.0.1 
+2020-03-31 03:23:34,717 1 INFO twtrubiks odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-31 03:23:34,718 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:34] "POST /web/database/create HTTP/1.1" 303 - 25031 9.256 7.038
+2020-03-31 03:23:34,726 1 INFO twtrubiks odoo.addons.base.models.ir_http: Generating routing map for key None 
+2020-03-31 03:23:34,789 1 INFO twtrubiks odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-03-31 03:23:34,795 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:34] "GET /web/ HTTP/1.1" 303 - 3 0.001 0.069
+2020-03-31 03:23:36,169 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/login HTTP/1.1" 200 - 262 0.089 1.278
+2020-03-31 03:23:36,223 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/422-b4c4eb4/web.assets_common.css HTTP/1.1" 200 - 9 0.005 0.020
+2020-03-31 03:23:36,231 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/424-ed746a2/web.assets_common_minimal_js.js HTTP/1.1" 200 - 6 0.014 0.017
+2020-03-31 03:23:36,240 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/423-466fe32/web.assets_frontend.css HTTP/1.1" 200 - 6 0.010 0.031
+2020-03-31 03:23:36,243 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/425-3a5eadd/web.assets_frontend_minimal_js.js HTTP/1.1" 200 - 6 0.015 0.025
+2020-03-31 03:23:36,306 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/426-b3712d3/web.assets_common_lazy.js HTTP/1.1" 200 - 6 0.002 0.012
+2020-03-31 03:23:36,429 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/content/427-141206c/web.assets_frontend_lazy.js HTTP/1.1" 200 - 6 0.002 0.004
+2020-03-31 03:23:36,449 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:36] "GET /web/webclient/translations/1585625016433?mods=&lang= HTTP/1.1" 200 - 9 0.006 0.004
+2020-03-31 03:23:40,958 1 INFO twtrubiks odoo.addons.base.models.res_users: Login successful for db:twtrubiks login:admin from 172.19.0.1 
+2020-03-31 03:23:40,967 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:40] "POST /web/login HTTP/1.1" 303 - 34 0.013 0.043
+2020-03-31 03:23:43,086 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web HTTP/1.1" 200 - 196 0.093 2.021
+2020-03-31 03:23:43,136 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/content/429-b4c4eb4/web.assets_common.js HTTP/1.1" 200 - 5 0.003 0.023
+2020-03-31 03:23:43,141 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/webclient/load_menus/003f16ffa5db0f0bc3d7182bd34ca35055762784 HTTP/1.1" 200 - 1 0.001 0.009
+2020-03-31 03:23:43,142 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/content/428-d559326/web.assets_backend.css HTTP/1.1" 200 - 5 0.014 0.020
+2020-03-31 03:23:43,152 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/content/430-d559326/web.assets_backend.js HTTP/1.1" 200 - 5 0.005 0.018
+2020-03-31 03:23:43,364 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/webclient/qweb/c2fd81b1292bd915fa5a7f1fb94c1fe398ebd9de?mods=base,web,base_import,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.009
+2020-03-31 03:23:43,447 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/webclient/translations/026ae15487c2067877f7b82ffb991974c070d399?mods=base%2Cweb%2Cbase_import%2Cweb_diagram%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_tour&lang=en_US HTTP/1.1" 200 - 3 0.002 0.004
+2020-03-31 03:23:43,513 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-31 03:23:43,525 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 24 0.017 0.014
+2020-03-31 03:23:43,579 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "POST /web/action/load HTTP/1.1" 200 - 42 0.022 0.020
+2020-03-31 03:23:43,699 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 97 0.047 0.055
+2020-03-31 03:23:43,796 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:23:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2020-03-31 03:23:48,779 1 INFO twtrubiks odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['hr_expense'] to user admin #2 via 172.19.0.1 
+2020-03-31 03:23:48,779 1 INFO twtrubiks odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2020-03-31 03:23:48,781 1 INFO twtrubiks odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['hr_expense'] to user admin #2 via 172.19.0.1 
+2020-03-31 03:23:48,952 1 INFO twtrubiks odoo.modules.loading: loading 1 modules... 
+2020-03-31 03:23:48,964 1 INFO twtrubiks odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-31 03:23:49,089 1 INFO twtrubiks odoo.modules.loading: updating modules list 
+2020-03-31 03:23:49,091 1 INFO twtrubiks odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.19.0.1 
+2020-03-31 03:23:49,449 1 INFO twtrubiks odoo.modules.loading: loading 7 modules... 
+2020-03-31 03:23:49,470 1 INFO twtrubiks odoo.modules.loading: 7 modules loaded in 0.02s, 0 queries 
+2020-03-31 03:23:49,481 1 INFO twtrubiks odoo.modules.loading: loading 36 modules... 
+2020-03-31 03:23:49,552 1 INFO twtrubiks odoo.modules.registry: module uom: creating or updating database tables 
+2020-03-31 03:23:49,625 1 INFO twtrubiks odoo.models: Storing computed values of measure_type 
+2020-03-31 03:23:49,640 1 INFO twtrubiks odoo.modules.loading: loading uom/data/uom_data.xml 
+2020-03-31 03:23:49,692 1 INFO twtrubiks odoo.modules.loading: loading uom/security/uom_security.xml 
+2020-03-31 03:23:49,750 1 INFO twtrubiks odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2020-03-31 03:23:49,773 1 INFO twtrubiks odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2020-03-31 03:23:49,837 1 INFO twtrubiks odoo.modules.loading: Module uom: loading demo 
+2020-03-31 03:23:49,923 1 INFO twtrubiks odoo.modules.registry: module base_setup: creating or updating database tables 
+2020-03-31 03:23:49,979 1 INFO twtrubiks odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2020-03-31 03:23:49,987 1 INFO twtrubiks odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2020-03-31 03:23:50,059 1 INFO twtrubiks odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2020-03-31 03:23:50,081 1 INFO twtrubiks odoo.modules.loading: loading base_setup/views/assets.xml 
+2020-03-31 03:23:50,109 1 INFO twtrubiks odoo.modules.loading: Module base_setup: loading demo 
+2020-03-31 03:23:50,202 1 INFO twtrubiks odoo.modules.registry: module bus: creating or updating database tables 
+2020-03-31 03:23:50,340 1 INFO twtrubiks odoo.modules.loading: loading bus/views/bus.xml 
+2020-03-31 03:23:50,394 1 INFO twtrubiks odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2020-03-31 03:23:50,413 1 INFO twtrubiks odoo.modules.loading: Module bus: loading demo 
+2020-03-31 03:23:50,503 1 INFO twtrubiks odoo.modules.registry: module http_routing: creating or updating database tables 
+2020-03-31 03:23:50,530 1 INFO twtrubiks odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2020-03-31 03:23:50,594 1 INFO twtrubiks odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2020-03-31 03:23:50,632 1 INFO twtrubiks odoo.modules.loading: Module http_routing: loading demo 
+2020-03-31 03:23:50,729 1 INFO twtrubiks odoo.modules.registry: module resource: creating or updating database tables 
+2020-03-31 03:23:50,923 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:23:50,970 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:23:50,970 1 INFO twtrubiks odoo.models: Storing computed values of resource_calendar_id 
+2020-03-31 03:23:50,999 1 INFO twtrubiks odoo.modules.loading: loading resource/data/resource_data.xml 
+2020-03-31 03:23:51,040 1 INFO twtrubiks odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2020-03-31 03:23:51,074 1 INFO twtrubiks odoo.modules.loading: loading resource/security/resource_security.xml 
+2020-03-31 03:23:51,098 1 INFO twtrubiks odoo.modules.loading: loading resource/views/resource_views.xml 
+2020-03-31 03:23:51,347 1 INFO twtrubiks odoo.modules.loading: loading resource/views/resource.xml 
+2020-03-31 03:23:51,381 1 INFO twtrubiks odoo.modules.loading: Module resource: loading demo 
+2020-03-31 03:23:51,475 1 INFO twtrubiks odoo.modules.registry: module iap: creating or updating database tables 
+2020-03-31 03:23:51,539 1 INFO twtrubiks odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2020-03-31 03:23:51,553 1 INFO twtrubiks odoo.modules.loading: loading iap/security/ir_rule.xml 
+2020-03-31 03:23:51,563 1 INFO twtrubiks odoo.modules.loading: loading iap/views/assets.xml 
+2020-03-31 03:23:51,599 1 INFO twtrubiks odoo.modules.loading: loading iap/views/iap_views.xml 
+2020-03-31 03:23:51,636 1 INFO twtrubiks odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2020-03-31 03:23:51,692 1 INFO twtrubiks odoo.modules.loading: Module iap: loading demo 
+2020-03-31 03:23:51,872 1 INFO twtrubiks odoo.modules.registry: module mail: creating or updating database tables 
+2020-03-31 03:23:53,567 1 INFO twtrubiks odoo.models: Storing computed values of res_model 
+2020-03-31 03:23:53,568 1 INFO twtrubiks odoo.models: Storing computed values of res_name 
+2020-03-31 03:23:53,726 1 INFO twtrubiks odoo.models: Storing computed values of model 
+2020-03-31 03:23:53,767 1 INFO twtrubiks odoo.models: Storing computed values of email_normalized 
+2020-03-31 03:23:54,033 1 INFO twtrubiks odoo.models: Storing computed values of model 
+2020-03-31 03:23:54,785 1 INFO twtrubiks odoo.modules.loading: loading mail/wizard/invite_view.xml 
+2020-03-31 03:23:54,803 1 INFO twtrubiks odoo.modules.loading: loading mail/wizard/mail_compose_message_view.xml 
+2020-03-31 03:23:54,835 1 INFO twtrubiks odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2020-03-31 03:23:54,853 1 INFO twtrubiks odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2020-03-31 03:23:54,876 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2020-03-31 03:23:54,910 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2020-03-31 03:23:54,945 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2020-03-31 03:23:55,020 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2020-03-31 03:23:55,074 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2020-03-31 03:23:55,107 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2020-03-31 03:23:55,223 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2020-03-31 03:23:55,249 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2020-03-31 03:23:55,357 1 INFO twtrubiks odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2020-03-31 03:23:55,410 1 INFO twtrubiks odoo.modules.loading: loading mail/data/mail_data.xml 
+2020-03-31 03:23:55,523 1 INFO twtrubiks odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2020-03-31 03:23:55,559 1 INFO twtrubiks odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2020-03-31 03:23:55,572 1 INFO twtrubiks odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2020-03-31 03:23:55,608 1 INFO twtrubiks odoo.modules.loading: loading mail/security/mail_security.xml 
+2020-03-31 03:23:55,668 1 INFO twtrubiks odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2020-03-31 03:23:55,776 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2020-03-31 03:23:55,824 1 INFO twtrubiks odoo.modules.loading: loading mail/views/res_users_views.xml 
+2020-03-31 03:23:55,892 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_templates.xml 
+2020-03-31 03:23:55,998 1 INFO twtrubiks odoo.modules.loading: loading mail/wizard/email_template_preview_view.xml 
+2020-03-31 03:23:56,018 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2020-03-31 03:23:56,075 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_moderation_views.xml 
+2020-03-31 03:23:56,106 1 INFO twtrubiks odoo.modules.loading: loading mail/views/ir_actions_views.xml 
+2020-03-31 03:23:56,142 1 INFO twtrubiks odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2020-03-31 03:23:56,238 1 INFO twtrubiks odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2020-03-31 03:23:56,350 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2020-03-31 03:23:56,400 1 INFO twtrubiks odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2020-03-31 03:23:56,431 1 INFO twtrubiks odoo.modules.loading: Module mail: loading demo 
+2020-03-31 03:23:56,432 1 INFO twtrubiks odoo.modules.loading: loading mail/data/mail_demo.xml 
+2020-03-31 03:23:56,522 1 INFO twtrubiks odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
+2020-03-31 03:23:56,750 1 INFO twtrubiks odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2020-03-31 03:23:56,815 1 INFO twtrubiks odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2020-03-31 03:23:56,877 1 INFO twtrubiks odoo.modules.loading: loading web_unsplash/views/web_unsplash_templates.xml 
+2020-03-31 03:23:56,913 1 INFO twtrubiks odoo.modules.loading: Module web_unsplash: loading demo 
+2020-03-31 03:23:57,101 1 INFO twtrubiks odoo.modules.registry: module analytic: creating or updating database tables 
+2020-03-31 03:23:57,161 1 INFO twtrubiks odoo.models: Computing parent_path for table account_analytic_group... 
+2020-03-31 03:23:57,277 1 INFO twtrubiks odoo.models: Storing computed values of complete_name 
+2020-03-31 03:23:57,325 1 INFO twtrubiks odoo.models: Storing computed values of currency_id 
+2020-03-31 03:23:57,325 1 INFO twtrubiks odoo.models: Storing computed values of group_id 
+2020-03-31 03:23:57,354 1 INFO twtrubiks odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2020-03-31 03:23:57,472 1 INFO twtrubiks odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2020-03-31 03:23:57,497 1 INFO twtrubiks odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2020-03-31 03:23:57,709 1 INFO twtrubiks odoo.modules.loading: Module analytic: loading demo 
+2020-03-31 03:23:57,709 1 INFO twtrubiks odoo.modules.loading: loading analytic/data/analytic_demo.xml 
+2020-03-31 03:23:57,714 1 INFO twtrubiks odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2020-03-31 03:23:58,027 1 INFO twtrubiks odoo.modules.registry: module auth_signup: creating or updating database tables 
+2020-03-31 03:23:58,155 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/data/auth_signup_data.xml 
+2020-03-31 03:23:58,174 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2020-03-31 03:23:58,185 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2020-03-31 03:23:58,255 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2020-03-31 03:23:58,328 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2020-03-31 03:23:58,370 1 INFO twtrubiks odoo.modules.loading: loading auth_signup/views/auth_signup_assets.xml 
+2020-03-31 03:23:58,394 1 INFO twtrubiks odoo.modules.loading: Module auth_signup: loading demo 
+2020-03-31 03:23:58,531 1 INFO twtrubiks odoo.modules.registry: module fetchmail: creating or updating database tables 
+2020-03-31 03:23:58,626 1 INFO twtrubiks odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2020-03-31 03:23:58,639 1 INFO twtrubiks odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2020-03-31 03:23:58,655 1 INFO twtrubiks odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2020-03-31 03:23:58,714 1 INFO twtrubiks odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2020-03-31 03:23:58,742 1 INFO twtrubiks odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2020-03-31 03:23:58,806 1 INFO twtrubiks odoo.modules.loading: Module fetchmail: loading demo 
+2020-03-31 03:23:58,971 1 INFO twtrubiks odoo.modules.registry: module mail_bot: creating or updating database tables 
+2020-03-31 03:23:59,139 1 INFO twtrubiks odoo.modules.loading: loading mail_bot/views/assets.xml 
+2020-03-31 03:23:59,218 1 INFO twtrubiks odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2020-03-31 03:23:59,327 1 INFO twtrubiks odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2020-03-31 03:23:59,358 1 INFO twtrubiks odoo.modules.loading: Module mail_bot: loading demo 
+2020-03-31 03:23:59,358 1 INFO twtrubiks odoo.modules.loading: loading mail_bot/data/mailbot_demo.xml 
+2020-03-31 03:23:59,525 1 INFO twtrubiks odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2020-03-31 03:23:59,630 1 INFO twtrubiks odoo.models: Storing computed values of partner_gid 
+2020-03-31 03:23:59,762 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2020-03-31 03:23:59,781 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/views/partner_autocomplete_assets.xml 
+2020-03-31 03:23:59,858 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/views/additional_info_template.xml 
+2020-03-31 03:23:59,872 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2020-03-31 03:23:59,977 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2020-03-31 03:24:00,004 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2020-03-31 03:24:00,074 1 INFO twtrubiks odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2020-03-31 03:24:00,084 1 INFO twtrubiks odoo.modules.loading: Module partner_autocomplete: loading demo 
+2020-03-31 03:24:00,241 1 INFO twtrubiks odoo.modules.registry: module phone_validation: creating or updating database tables 
+2020-03-31 03:24:00,390 1 INFO twtrubiks odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2020-03-31 03:24:00,403 1 INFO twtrubiks odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2020-03-31 03:24:00,455 1 INFO twtrubiks odoo.modules.loading: Module phone_validation: loading demo 
+2020-03-31 03:24:00,659 1 INFO twtrubiks odoo.modules.registry: module product: creating or updating database tables 
+2020-03-31 03:24:00,747 1 INFO twtrubiks odoo.models: Computing parent_path for table product_category... 
+2020-03-31 03:24:01,201 1 INFO twtrubiks odoo.models: Storing computed values of volume 
+2020-03-31 03:24:01,201 1 INFO twtrubiks odoo.models: Storing computed values of weight 
+2020-03-31 03:24:01,201 1 INFO twtrubiks odoo.models: Storing computed values of default_code 
+2020-03-31 03:24:01,201 1 INFO twtrubiks odoo.models: Storing computed values of can_image_1024_be_zoomed 
+2020-03-31 03:24:01,201 1 INFO twtrubiks odoo.models: Storing computed values of has_configurable_attributes 
+2020-03-31 03:24:01,211 1 INFO twtrubiks odoo.models: Storing computed values of complete_name 
+2020-03-31 03:24:01,244 1 INFO twtrubiks odoo.models: Storing computed values of combination_indices 
+2020-03-31 03:24:01,244 1 INFO twtrubiks odoo.models: Storing computed values of can_image_variant_1024_be_zoomed 
+2020-03-31 03:24:01,297 1 INFO twtrubiks odoo.models: Storing computed values of product_tmpl_ids 
+2020-03-31 03:24:01,348 1 INFO twtrubiks odoo.models: Storing computed values of product_tmpl_id 
+2020-03-31 03:24:01,348 1 INFO twtrubiks odoo.models: Storing computed values of attribute_id 
+2020-03-31 03:24:01,427 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:01,427 1 INFO twtrubiks odoo.models: Storing computed values of currency_id 
+2020-03-31 03:24:01,427 1 INFO twtrubiks odoo.models: Storing computed values of active 
+2020-03-31 03:24:01,591 1 INFO twtrubiks odoo.modules.loading: loading product/data/product_data.xml 
+2020-03-31 03:24:01,615 1 INFO twtrubiks odoo.modules.loading: loading product/security/product_security.xml 
+2020-03-31 03:24:01,898 1 INFO twtrubiks odoo.modules.loading: loading product/security/ir.model.access.csv 
+2020-03-31 03:24:01,967 1 INFO twtrubiks odoo.modules.loading: loading product/wizard/product_price_list_views.xml 
+2020-03-31 03:24:01,992 1 INFO twtrubiks odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2020-03-31 03:24:02,098 1 INFO twtrubiks odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2020-03-31 03:24:02,199 1 INFO twtrubiks odoo.modules.loading: loading product/views/product_views.xml 
+2020-03-31 03:24:02,628 1 INFO twtrubiks odoo.modules.loading: loading product/views/product_template_views.xml 
+2020-03-31 03:24:02,755 1 INFO twtrubiks odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2020-03-31 03:24:02,998 1 INFO twtrubiks odoo.modules.loading: loading product/views/res_partner_views.xml 
+2020-03-31 03:24:03,058 1 INFO twtrubiks odoo.modules.loading: loading product/report/product_reports.xml 
+2020-03-31 03:24:03,079 1 INFO twtrubiks odoo.modules.loading: loading product/report/product_pricelist_templates.xml 
+2020-03-31 03:24:03,092 1 INFO twtrubiks odoo.modules.loading: loading product/report/product_product_templates.xml 
+2020-03-31 03:24:03,132 1 INFO twtrubiks odoo.modules.loading: loading product/report/product_template_templates.xml 
+2020-03-31 03:24:03,153 1 INFO twtrubiks odoo.modules.loading: loading product/report/product_packaging.xml 
+2020-03-31 03:24:03,166 1 INFO twtrubiks odoo.modules.loading: Module product: loading demo 
+2020-03-31 03:24:03,167 1 INFO twtrubiks odoo.modules.loading: loading product/data/product_demo.xml 
+2020-03-31 03:24:03,760 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.message records with IDs: [61] 
+2020-03-31 03:24:03,779 1 INFO twtrubiks odoo.models.unlink: User #1 deleted ir.property records with IDs: [9] 
+2020-03-31 03:24:03,787 1 INFO twtrubiks odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
+2020-03-31 03:24:03,797 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.followers records with IDs: [40] 
+2020-03-31 03:24:03,892 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.message records with IDs: [63, 62] 
+2020-03-31 03:24:03,916 1 INFO twtrubiks odoo.models.unlink: User #1 deleted product.product records with IDs: [10, 11] 
+2020-03-31 03:24:03,925 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.followers records with IDs: [41, 42] 
+2020-03-31 03:24:04,536 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.message records with IDs: [81] 
+2020-03-31 03:24:04,551 1 INFO twtrubiks odoo.models.unlink: User #1 deleted ir.property records with IDs: [20] 
+2020-03-31 03:24:04,557 1 INFO twtrubiks odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
+2020-03-31 03:24:04,567 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.followers records with IDs: [60] 
+2020-03-31 03:24:05,577 1 INFO twtrubiks odoo.modules.registry: module snailmail: creating or updating database tables 
+2020-03-31 03:24:05,956 1 INFO twtrubiks odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2020-03-31 03:24:05,968 1 INFO twtrubiks odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2020-03-31 03:24:06,018 1 INFO twtrubiks odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2020-03-31 03:24:06,059 1 INFO twtrubiks odoo.modules.loading: loading snailmail/views/assets.xml 
+2020-03-31 03:24:06,137 1 INFO twtrubiks odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2020-03-31 03:24:06,155 1 INFO twtrubiks odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2020-03-31 03:24:06,171 1 INFO twtrubiks odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2020-03-31 03:24:06,188 1 INFO twtrubiks odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2020-03-31 03:24:06,211 1 INFO twtrubiks odoo.modules.loading: Module snailmail: loading demo 
+2020-03-31 03:24:06,437 1 INFO twtrubiks odoo.modules.registry: module hr: creating or updating database tables 
+2020-03-31 03:24:06,828 1 INFO twtrubiks odoo.models: Storing computed values of name 
+2020-03-31 03:24:06,828 1 INFO twtrubiks odoo.models: Storing computed values of user_id 
+2020-03-31 03:24:06,828 1 INFO twtrubiks odoo.models: Storing computed values of active 
+2020-03-31 03:24:06,828 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:06,828 1 INFO twtrubiks odoo.models: Storing computed values of resource_calendar_id 
+2020-03-31 03:24:06,868 1 INFO twtrubiks odoo.models: Storing computed values of complete_name 
+2020-03-31 03:24:06,891 1 INFO twtrubiks odoo.models: Storing computed values of expected_employees 
+2020-03-31 03:24:06,891 1 INFO twtrubiks odoo.models: Storing computed values of no_of_employee 
+2020-03-31 03:24:07,145 1 INFO twtrubiks odoo.modules.loading: loading hr/security/hr_security.xml 
+2020-03-31 03:24:07,437 1 INFO twtrubiks odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2020-03-31 03:24:07,487 1 INFO twtrubiks odoo.modules.loading: loading hr/wizard/hr_plan_wizard_views.xml 
+2020-03-31 03:24:07,512 1 INFO twtrubiks odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2020-03-31 03:24:07,529 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2020-03-31 03:24:07,600 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_plan_views.xml 
+2020-03-31 03:24:07,664 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2020-03-31 03:24:07,689 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2020-03-31 03:24:07,759 1 INFO twtrubiks odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2020-03-31 03:24:07,776 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2020-03-31 03:24:07,906 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2020-03-31 03:24:07,972 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_views.xml 
+2020-03-31 03:24:08,060 1 INFO twtrubiks odoo.modules.loading: loading hr/views/hr_templates.xml 
+2020-03-31 03:24:08,115 1 INFO twtrubiks odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2020-03-31 03:24:08,232 1 INFO twtrubiks odoo.modules.loading: loading hr/views/mail_channel_views.xml 
+2020-03-31 03:24:08,260 1 INFO twtrubiks odoo.modules.loading: loading hr/views/res_users.xml 
+2020-03-31 03:24:08,489 1 INFO twtrubiks odoo.modules.loading: loading hr/data/hr_data.xml 
+2020-03-31 03:24:08,586 1 INFO twtrubiks odoo.modules.loading: Module hr: loading demo 
+2020-03-31 03:24:08,586 1 INFO twtrubiks odoo.modules.loading: loading hr/data/hr_demo.xml 
+2020-03-31 03:24:09,648 1 INFO twtrubiks odoo.modules.registry: module portal: creating or updating database tables 
+2020-03-31 03:24:10,190 1 INFO twtrubiks odoo.modules.loading: loading portal/data/portal_data.xml 
+2020-03-31 03:24:10,220 1 INFO twtrubiks odoo.modules.loading: loading portal/views/assets.xml 
+2020-03-31 03:24:10,329 1 INFO twtrubiks odoo.modules.loading: loading portal/views/portal_templates.xml 
+2020-03-31 03:24:10,594 1 INFO twtrubiks odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2020-03-31 03:24:10,615 1 INFO twtrubiks odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2020-03-31 03:24:10,635 1 INFO twtrubiks odoo.modules.loading: Module portal: loading demo 
+2020-03-31 03:24:10,891 1 INFO twtrubiks odoo.modules.registry: module sms: creating or updating database tables 
+2020-03-31 03:24:11,303 1 INFO twtrubiks odoo.models: Storing computed values of phone_sanitized 
+2020-03-31 03:24:11,333 1 INFO twtrubiks odoo.models: Storing computed values of model 
+2020-03-31 03:24:11,400 1 INFO twtrubiks odoo.models: Storing computed values of model 
+2020-03-31 03:24:11,690 1 INFO twtrubiks odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2020-03-31 03:24:11,701 1 INFO twtrubiks odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2020-03-31 03:24:11,724 1 INFO twtrubiks odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2020-03-31 03:24:11,745 1 INFO twtrubiks odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2020-03-31 03:24:11,772 1 INFO twtrubiks odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2020-03-31 03:24:11,791 1 INFO twtrubiks odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2020-03-31 03:24:11,832 1 INFO twtrubiks odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2020-03-31 03:24:11,913 1 INFO twtrubiks odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2020-03-31 03:24:11,993 1 INFO twtrubiks odoo.modules.loading: loading sms/views/assets.xml 
+2020-03-31 03:24:12,112 1 INFO twtrubiks odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2020-03-31 03:24:12,178 1 INFO twtrubiks odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2020-03-31 03:24:12,267 1 INFO twtrubiks odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2020-03-31 03:24:12,294 1 INFO twtrubiks odoo.modules.loading: Module sms: loading demo 
+2020-03-31 03:24:12,294 1 INFO twtrubiks odoo.modules.loading: loading sms/data/sms_demo.xml 
+2020-03-31 03:24:12,304 1 INFO twtrubiks odoo.modules.loading: loading sms/data/mail_demo.xml 
+2020-03-31 03:24:12,580 1 INFO twtrubiks odoo.modules.registry: module digest: creating or updating database tables 
+2020-03-31 03:24:12,760 1 INFO twtrubiks odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2020-03-31 03:24:12,781 1 INFO twtrubiks odoo.modules.loading: loading digest/data/digest_template_data.xml 
+2020-03-31 03:24:12,789 1 INFO twtrubiks odoo.modules.loading: loading digest/data/digest_data.xml 
+2020-03-31 03:24:12,812 1 INFO twtrubiks odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2020-03-31 03:24:12,823 1 INFO twtrubiks odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2020-03-31 03:24:12,832 1 INFO twtrubiks odoo.modules.loading: loading digest/views/digest_views.xml 
+2020-03-31 03:24:12,959 1 INFO twtrubiks odoo.modules.loading: loading digest/views/digest_templates.xml 
+2020-03-31 03:24:12,970 1 INFO twtrubiks odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2020-03-31 03:24:13,135 1 INFO twtrubiks odoo.modules.loading: Module digest: loading demo 
+2020-03-31 03:24:13,395 1 INFO twtrubiks odoo.modules.registry: module hr_contract: creating or updating database tables 
+2020-03-31 03:24:13,520 1 INFO twtrubiks odoo.models: Storing computed values of contract_warning 
+2020-03-31 03:24:13,631 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/security/security.xml 
+2020-03-31 03:24:13,824 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/security/ir.model.access.csv 
+2020-03-31 03:24:13,854 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/data/hr_contract_data.xml 
+2020-03-31 03:24:13,874 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/views/hr_contract_views.xml 
+2020-03-31 03:24:14,243 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/views/assets.xml 
+2020-03-31 03:24:14,299 1 INFO twtrubiks odoo.modules.loading: Module hr_contract: loading demo 
+2020-03-31 03:24:14,300 1 INFO twtrubiks odoo.modules.loading: loading hr_contract/data/hr_contract_demo.xml 
+2020-03-31 03:24:14,889 1 INFO twtrubiks odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2020-03-31 03:24:14,970 1 INFO twtrubiks odoo.modules.loading: loading hr_org_chart/views/hr_templates.xml 
+2020-03-31 03:24:15,090 1 INFO twtrubiks odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2020-03-31 03:24:15,248 1 INFO twtrubiks odoo.modules.loading: Module hr_org_chart: loading demo 
+2020-03-31 03:24:15,798 1 INFO twtrubiks odoo.modules.registry: module account: creating or updating database tables 
+2020-03-31 03:24:16,000 1 INFO twtrubiks odoo.models: Computing parent_path for table account_tax_report_line... 
+2020-03-31 03:24:16,100 1 INFO twtrubiks odoo.models: Computing parent_path for table account_group... 
+2020-03-31 03:24:18,000 1 INFO twtrubiks odoo.models: Storing computed values of internal_type 
+2020-03-31 03:24:18,000 1 INFO twtrubiks odoo.models: Storing computed values of internal_group 
+2020-03-31 03:24:18,000 1 INFO twtrubiks odoo.models: Storing computed values of root_id 
+2020-03-31 03:24:18,136 1 INFO twtrubiks odoo.models: Storing computed values of at_least_one_inbound 
+2020-03-31 03:24:18,136 1 INFO twtrubiks odoo.models: Storing computed values of at_least_one_outbound 
+2020-03-31 03:24:18,448 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:18,448 1 INFO twtrubiks odoo.models: Storing computed values of total_entry_encoding 
+2020-03-31 03:24:18,448 1 INFO twtrubiks odoo.models: Storing computed values of balance_end 
+2020-03-31 03:24:18,448 1 INFO twtrubiks odoo.models: Storing computed values of difference 
+2020-03-31 03:24:18,475 1 INFO twtrubiks odoo.models: Storing computed values of journal_id 
+2020-03-31 03:24:18,475 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of commercial_partner_id 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_untaxed 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_tax 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_total 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_residual 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_untaxed_signed 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_tax_signed 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_total_signed 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of amount_residual_signed 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of invoice_payment_state 
+2020-03-31 03:24:18,541 1 INFO twtrubiks odoo.models: Storing computed values of invoice_partner_display_name 
+2020-03-31 03:24:18,634 1 INFO twtrubiks odoo.models: Storing computed values of move_name 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of date 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of ref 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of parent_state 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of journal_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of company_currency_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of account_internal_type 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of account_root_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of balance 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of reconciled 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of statement_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of tax_line_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of tax_group_id 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of tax_audit 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of amount_residual 
+2020-03-31 03:24:18,635 1 INFO twtrubiks odoo.models: Storing computed values of amount_residual_currency 
+2020-03-31 03:24:18,657 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:18,657 1 INFO twtrubiks odoo.models: Storing computed values of max_date 
+2020-03-31 03:24:18,942 1 INFO twtrubiks odoo.models: Storing computed values of general_account_id 
+2020-03-31 03:24:19,628 1 INFO twtrubiks odoo.modules.loading: loading account/security/account_security.xml 
+2020-03-31 03:24:20,630 1 INFO twtrubiks odoo.modules.loading: loading account/security/ir.model.access.csv 
+2020-03-31 03:24:20,878 1 INFO twtrubiks odoo.modules.loading: loading account/data/data_account_type.xml 
+2020-03-31 03:24:20,911 1 INFO twtrubiks odoo.modules.loading: loading account/data/account_data.xml 
+2020-03-31 03:24:21,002 1 INFO twtrubiks odoo.modules.loading: loading account/data/digest_data.xml 
+2020-03-31 03:24:21,007 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_menuitem.xml 
+2020-03-31 03:24:21,116 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_payment_view.xml 
+2020-03-31 03:24:21,301 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_accrual_accounting_view.xml 
+2020-03-31 03:24:21,321 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2020-03-31 03:24:21,337 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2020-03-31 03:24:21,356 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_move_views.xml 
+2020-03-31 03:24:22,058 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2020-03-31 03:24:22,102 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/pos_box.xml 
+2020-03-31 03:24:22,117 1 INFO twtrubiks odoo.modules.loading: loading account/views/partner_view.xml 
+2020-03-31 03:24:22,375 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_view.xml 
+2020-03-31 03:24:23,452 1 INFO twtrubiks odoo.modules.loading: loading account/views/report_statement.xml 
+2020-03-31 03:24:23,467 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_report.xml 
+2020-03-31 03:24:23,496 1 INFO twtrubiks odoo.modules.loading: loading account/data/mail_template_data.xml 
+2020-03-31 03:24:23,503 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2020-03-31 03:24:23,524 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_end_fy.xml 
+2020-03-31 03:24:23,526 1 INFO twtrubiks odoo.modules.loading: loading account/views/product_view.xml 
+2020-03-31 03:24:23,594 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2020-03-31 03:24:23,708 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_tip_data.xml 
+2020-03-31 03:24:23,709 1 INFO twtrubiks odoo.modules.loading: loading account/views/account.xml 
+2020-03-31 03:24:23,881 1 INFO twtrubiks odoo.modules.loading: loading account/views/report_invoice.xml 
+2020-03-31 03:24:23,936 1 INFO twtrubiks odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2020-03-31 03:24:24,024 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2020-03-31 03:24:24,071 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2020-03-31 03:24:24,092 1 INFO twtrubiks odoo.modules.loading: loading account/views/report_journal.xml 
+2020-03-31 03:24:24,107 1 INFO twtrubiks odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2020-03-31 03:24:24,118 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2020-03-31 03:24:24,132 1 INFO twtrubiks odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2020-03-31 03:24:24,282 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2020-03-31 03:24:24,340 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2020-03-31 03:24:24,421 1 INFO twtrubiks odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2020-03-31 03:24:24,443 1 INFO twtrubiks odoo.modules.loading: loading account/data/payment_receipt_data.xml 
+2020-03-31 03:24:24,453 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2020-03-31 03:24:24,583 1 INFO twtrubiks odoo.modules.loading: loading account/data/service_cron.xml 
+2020-03-31 03:24:24,592 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_fiscal_year_view.xml 
+2020-03-31 03:24:24,635 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2020-03-31 03:24:24,681 1 INFO twtrubiks odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2020-03-31 03:24:24,707 1 INFO twtrubiks odoo.modules.loading: loading account/views/digest_views.xml 
+2020-03-31 03:24:24,754 1 INFO twtrubiks odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2020-03-31 03:24:24,784 1 INFO twtrubiks odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2020-03-31 03:24:24,831 1 INFO twtrubiks odoo.modules.loading: loading account/views/report_statement.xml 
+2020-03-31 03:24:24,841 1 INFO twtrubiks odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2020-03-31 03:24:24,857 1 INFO twtrubiks odoo.modules.loading: Module account: loading demo 
+2020-03-31 03:24:24,857 1 INFO twtrubiks odoo.modules.loading: loading account/demo/account_demo.xml 
+2020-03-31 03:24:25,215 1 INFO twtrubiks odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['l10n_us'] to user __system__ #1 via 172.19.0.1 
+2020-03-31 03:24:25,655 1 INFO twtrubiks odoo.modules.registry: module account_bank_statement_import: creating or updating database tables 
+2020-03-31 03:24:25,855 1 INFO twtrubiks odoo.modules.loading: loading account_bank_statement_import/account_bank_statement_import_view.xml 
+2020-03-31 03:24:25,919 1 INFO twtrubiks odoo.modules.loading: loading account_bank_statement_import/account_import_tip_data.xml 
+2020-03-31 03:24:25,921 1 INFO twtrubiks odoo.modules.loading: loading account_bank_statement_import/wizard/journal_creation.xml 
+2020-03-31 03:24:25,941 1 INFO twtrubiks odoo.modules.loading: loading account_bank_statement_import/views/account_bank_statement_import_templates.xml 
+2020-03-31 03:24:26,002 1 INFO twtrubiks odoo.modules.loading: Module account_bank_statement_import: loading demo 
+2020-03-31 03:24:26,002 1 INFO twtrubiks odoo.modules.loading: loading account_bank_statement_import/demo/partner_bank.xml 
+2020-03-31 03:24:26,329 1 INFO twtrubiks odoo.modules.registry: module account_facturx: creating or updating database tables 
+2020-03-31 03:24:26,402 1 INFO twtrubiks odoo.modules.loading: loading account_facturx/data/facturx_templates.xml 
+2020-03-31 03:24:26,439 1 INFO twtrubiks odoo.modules.loading: Module account_facturx: loading demo 
+2020-03-31 03:24:26,803 1 INFO twtrubiks odoo.modules.registry: module hr_expense: creating or updating database tables 
+2020-03-31 03:24:27,321 1 INFO twtrubiks odoo.models: Storing computed values of untaxed_amount 
+2020-03-31 03:24:27,321 1 INFO twtrubiks odoo.models: Storing computed values of total_amount 
+2020-03-31 03:24:27,321 1 INFO twtrubiks odoo.models: Storing computed values of company_currency_id 
+2020-03-31 03:24:27,321 1 INFO twtrubiks odoo.models: Storing computed values of total_amount_company 
+2020-03-31 03:24:27,321 1 INFO twtrubiks odoo.models: Storing computed values of state 
+2020-03-31 03:24:27,365 1 INFO twtrubiks odoo.models: Storing computed values of total_amount 
+2020-03-31 03:24:27,527 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/security/hr_expense_security.xml 
+2020-03-31 03:24:27,891 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/security/ir.model.access.csv 
+2020-03-31 03:24:27,945 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/data/mail_data.xml 
+2020-03-31 03:24:27,990 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/data/hr_expense_sequence.xml 
+2020-03-31 03:24:27,996 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/wizard/hr_expense_refuse_reason_views.xml 
+2020-03-31 03:24:28,015 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/wizard/hr_expense_sheet_register_payment.xml 
+2020-03-31 03:24:28,037 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/hr_expense_views.xml 
+2020-03-31 03:24:28,685 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/mail_activity_views.xml 
+2020-03-31 03:24:28,695 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/security/ir_rule.xml 
+2020-03-31 03:24:28,750 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/report/hr_expense_report.xml 
+2020-03-31 03:24:28,771 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/hr_department_views.xml 
+2020-03-31 03:24:28,799 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/assets.xml 
+2020-03-31 03:24:28,881 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/res_config_settings_views.xml 
+2020-03-31 03:24:29,023 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/views/account_journal_dashboard.xml 
+2020-03-31 03:24:29,069 1 INFO twtrubiks odoo.modules.loading: Module hr_expense: loading demo 
+2020-03-31 03:24:29,070 1 INFO twtrubiks odoo.modules.loading: loading hr_expense/data/hr_expense_demo.xml 
+2020-03-31 03:24:29,560 1 INFO twtrubiks odoo.tests: skip sending email in test mode 
+2020-03-31 03:24:29,561 1 INFO twtrubiks odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<020681609590285.1585625069.519963026046753-openerp-message-notify@f00f411609d0>' successfully sent 
+2020-03-31 03:24:29,612 1 INFO twtrubiks odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
+2020-03-31 03:24:29,612 1 INFO twtrubiks odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2020-03-31 03:24:30,135 1 INFO twtrubiks odoo.modules.registry: module payment: creating or updating database tables 
+2020-03-31 03:24:30,456 1 INFO twtrubiks odoo.models: Storing computed values of color 
+2020-03-31 03:24:30,456 1 INFO twtrubiks odoo.models: Storing computed values of module_state 
+2020-03-31 03:24:30,520 1 INFO twtrubiks odoo.models: Storing computed values of company_id 
+2020-03-31 03:24:30,806 1 INFO twtrubiks odoo.modules.loading: loading payment/data/account_data.xml 
+2020-03-31 03:24:30,813 1 INFO twtrubiks odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2020-03-31 03:24:30,961 1 INFO twtrubiks odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2020-03-31 03:24:31,165 1 INFO twtrubiks odoo.modules.loading: loading payment/data/payment_cron.xml 
+2020-03-31 03:24:31,176 1 INFO twtrubiks odoo.modules.loading: loading payment/views/payment_views.xml 
+2020-03-31 03:24:31,457 1 INFO twtrubiks odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2020-03-31 03:24:31,495 1 INFO twtrubiks odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2020-03-31 03:24:31,592 1 INFO twtrubiks odoo.modules.loading: loading payment/views/payment_acquirer_onboarding_templates.xml 
+2020-03-31 03:24:31,632 1 INFO twtrubiks odoo.modules.loading: loading payment/views/payment_templates.xml 
+2020-03-31 03:24:31,714 1 INFO twtrubiks odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2020-03-31 03:24:31,767 1 INFO twtrubiks odoo.modules.loading: loading payment/views/assets.xml 
+2020-03-31 03:24:31,802 1 INFO twtrubiks odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2020-03-31 03:24:31,877 1 INFO twtrubiks odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2020-03-31 03:24:31,909 1 INFO twtrubiks odoo.modules.loading: loading payment/security/payment_security.xml 
+2020-03-31 03:24:31,932 1 INFO twtrubiks odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2020-03-31 03:24:31,953 1 INFO twtrubiks odoo.modules.loading: Module payment: loading demo 
+2020-03-31 03:24:32,338 1 INFO twtrubiks odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2020-03-31 03:24:32,481 1 INFO twtrubiks odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2020-03-31 03:24:32,619 1 INFO twtrubiks odoo.modules.loading: loading snailmail_account/views/assets.xml 
+2020-03-31 03:24:32,686 1 INFO twtrubiks odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2020-03-31 03:24:32,721 1 INFO twtrubiks odoo.modules.loading: Module snailmail_account: loading demo 
+2020-03-31 03:24:33,039 1 INFO twtrubiks odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2020-03-31 03:24:33,103 1 INFO twtrubiks odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2020-03-31 03:24:33,139 1 INFO twtrubiks odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2020-03-31 03:24:33,150 1 INFO twtrubiks odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2020-03-31 03:24:33,173 1 INFO twtrubiks odoo.modules.loading: Module payment_transfer: loading demo 
+2020-03-31 03:24:33,191 1 INFO twtrubiks odoo.modules.loading: 36 modules loaded in 43.71s, 9 queries 
+2020-03-31 03:24:33,193 1 INFO twtrubiks odoo.modules.loading: loading 38 modules... 
+2020-03-31 03:24:33,557 1 INFO twtrubiks odoo.modules.registry: module l10n_generic_coa: creating or updating database tables 
+2020-03-31 03:24:33,568 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa.xml 
+2020-03-31 03:24:33,582 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/data/account.account.template.csv 
+2020-03-31 03:24:33,670 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa_post.xml 
+2020-03-31 03:24:33,993 1 INFO twtrubiks odoo.modules.loading: Module l10n_generic_coa: loading demo 
+2020-03-31 03:24:33,993 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/demo/account_bank_statement_demo.xml 
+2020-03-31 03:24:34,147 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/demo/account_invoice_demo.xml 
+2020-03-31 03:24:34,715 1 INFO twtrubiks odoo.modules.loading: loading l10n_generic_coa/demo/account_reconcile_model.xml 
+2020-03-31 03:24:35,035 1 INFO twtrubiks odoo.modules.registry: module l10n_us: creating or updating database tables 
+2020-03-31 03:24:35,085 1 INFO twtrubiks odoo.modules.loading: loading l10n_us/data/res_company_data.xml 
+2020-03-31 03:24:35,094 1 INFO twtrubiks odoo.modules.loading: loading l10n_us/views/res_partner_bank_views.xml 
+2020-03-31 03:24:35,124 1 INFO twtrubiks odoo.modules.loading: Module l10n_us: loading demo 
+2020-03-31 03:24:35,137 1 INFO twtrubiks odoo.modules.loading: 38 modules loaded in 1.94s, 0 queries 
+2020-03-31 03:24:35,683 1 INFO twtrubiks odoo.modules.loading: Modules loaded. 
+2020-03-31 03:24:35,689 1 INFO twtrubiks odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-31 03:24:35,694 1 INFO twtrubiks odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-31 03:24:35,697 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:35] "POST /web/dataset/call_button HTTP/1.1" 200 - 55035 21.776 25.147
+2020-03-31 03:24:35,750 1 INFO twtrubiks odoo.addons.base.models.ir_http: Generating routing map for key None 
+2020-03-31 03:24:36,297 1 INFO twtrubiks odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [422] 
+2020-03-31 03:24:37,002 1 INFO twtrubiks odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [428] 
+2020-03-31 03:24:37,866 1 INFO twtrubiks odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [429] 
+2020-03-31 03:24:39,049 1 INFO twtrubiks odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [430] 
+2020-03-31 03:24:39,096 1 INFO twtrubiks odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-03-31 03:24:39,098 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web HTTP/1.1" 200 - 803 0.368 2.982
+2020-03-31 03:24:39,187 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/content/735-fee0a2c/web.assets_common.css HTTP/1.1" 200 - 7 0.006 0.024
+2020-03-31 03:24:39,191 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/content/736-1b14204/web.assets_backend.css HTTP/1.1" 200 - 5 0.008 0.025
+2020-03-31 03:24:39,216 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/content/737-fee0a2c/web.assets_common.js HTTP/1.1" 200 - 5 0.013 0.045
+2020-03-31 03:24:39,218 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/content/738-1b14204/web.assets_backend.js HTTP/1.1" 200 - 5 0.021 0.037
+2020-03-31 03:24:39,419 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/webclient/load_menus/45c0f46aa044410c9fbb8e1544ed524b7110aa50 HTTP/1.1" 200 - 194 0.136 0.121
+2020-03-31 03:24:39,511 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/webclient/qweb/188f9dbab8f3adf9c9c47c8657a97e467503e2a0?mods=base,web,base_setup,bus,web_tour,mail,product,web_editor,auth_signup,portal,resource,digest,account,mail_bot,hr,hr_contract,hr_expense,account_bank_statement_import,base_import,hr_org_chart,iap,l10n_generic_coa,l10n_us,partner_autocomplete,payment,payment_transfer,sms,snailmail,snailmail_account,web_diagram,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.000 0.019
+2020-03-31 03:24:39,658 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/webclient/translations/026ae15487c2067877f7b82ffb991974c070d399?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cweb_editor%2Cauth_signup%2Cportal%2Cresource%2Cdigest%2Caccount%2Cmail_bot%2Chr%2Chr_contract%2Chr_expense%2Caccount_bank_statement_import%2Cbase_import%2Chr_org_chart%2Ciap%2Cl10n_generic_coa%2Cl10n_us%2Cpartner_autocomplete%2Cpayment%2Cpayment_transfer%2Csms%2Csnailmail%2Csnailmail_account%2Cweb_diagram%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.002 0.005
+2020-03-31 03:24:39,774 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 5 0.012 0.010
+2020-03-31 03:24:39,778 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.002 0.013
+2020-03-31 03:24:39,779 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /mail/init_messaging HTTP/1.1" 200 - 75 0.060 0.039
+2020-03-31 03:24:39,792 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 21 0.021 0.016
+2020-03-31 03:24:39,841 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /web/action/load HTTP/1.1" 200 - 14 0.013 0.009
+2020-03-31 03:24:39,861 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /longpolling/poll HTTP/1.1" 200 - 24 0.018 0.022
+2020-03-31 03:24:39,918 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 30 0.023 0.024
+2020-03-31 03:24:39,956 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:39] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 14 0.007 0.010
+2020-03-31 03:24:40,040 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:40] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.004 0.005
+2020-03-31 03:24:52,243 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:52] "POST /web/action/load HTTP/1.1" 200 - 61 0.031 0.025
+2020-03-31 03:24:52,387 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:52] "POST /web/dataset/call_kw/hr.expense/load_views HTTP/1.1" 200 - 111 0.048 0.072
+2020-03-31 03:24:52,522 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 38 0.021 0.017
+2020-03-31 03:24:53,689 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:53] "POST /web/dataset/call_kw/hr.expense/default_get HTTP/1.1" 200 - 25 0.012 0.010
+2020-03-31 03:24:53,781 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:53] "POST /web/dataset/call_kw/hr.expense/onchange HTTP/1.1" 200 - 8 0.006 0.017
+2020-03-31 03:24:53,800 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:53] "POST /web/dataset/call_kw/hr.employee/name_get HTTP/1.1" 200 - 2 0.002 0.006
+2020-03-31 03:24:53,816 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:53] "POST /web/dataset/call_kw/uom.uom/name_search HTTP/1.1" 200 - 2 0.001 0.004
+2020-03-31 03:24:53,997 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:53] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 200 - - - -
+2020-03-31 03:24:55,774 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:55] "POST /web/dataset/call_kw/product.product/name_search HTTP/1.1" 200 - 16 0.009 0.008
+2020-03-31 03:24:56,332 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:56] "POST /web/dataset/call_kw/hr.expense/onchange HTTP/1.1" 200 - 32 0.015 0.019
+2020-03-31 03:24:56,405 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:56] "POST /web/dataset/call_kw/uom.uom/name_search HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:24:59,001 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "POST /web/dataset/call_kw/hr.expense/create HTTP/1.1" 200 - 36 0.020 0.032
+2020-03-31 03:24:59,124 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "POST /web/dataset/call_kw/hr.expense/read HTTP/1.1" 200 - 25 0.017 0.019
+2020-03-31 03:24:59,198 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "POST /mail/read_followers HTTP/1.1" 200 - 21 0.015 0.013
+2020-03-31 03:24:59,213 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 17 0.012 0.016
+2020-03-31 03:24:59,325 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "GET /web/image/res.partner/3/image_128 HTTP/1.1" 200 - 5 0.002 0.006
+2020-03-31 03:24:59,841 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:24:59] "POST /longpolling/im_status HTTP/1.1" 200 - 6 0.002 0.004
+2020-03-31 03:25:00,268 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_button HTTP/1.1" 200 - 3 0.001 0.004
+2020-03-31 03:25:00,347 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/hr.expense.sheet/load_views HTTP/1.1" 200 - 61 0.023 0.043
+2020-03-31 03:25:00,382 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/hr.expense.sheet/default_get HTTP/1.1" 200 - 14 0.007 0.008
+2020-03-31 03:25:00,408 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/hr.expense/read HTTP/1.1" 200 - 9 0.006 0.008
+2020-03-31 03:25:00,455 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/hr.expense.sheet/onchange HTTP/1.1" 200 - 24 0.011 0.024
+2020-03-31 03:25:00,479 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/hr.employee/name_get HTTP/1.1" 200 - 2 0.001 0.009
+2020-03-31 03:25:00,486 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:00] "POST /web/dataset/call_kw/account.journal/name_get HTTP/1.1" 200 - 6 0.005 0.011
+2020-03-31 03:25:01,353 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/hr.expense.sheet/create HTTP/1.1" 200 - 39 0.021 0.038
+2020-03-31 03:25:01,400 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-03-31 03:25:01,411 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Post process payment transactions` done. 
+2020-03-31 03:25:01,412 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-03-31 03:25:01,423 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2020-03-31 03:25:01,425 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-03-31 03:25:01,463 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/hr.expense.sheet/read HTTP/1.1" 200 - 30 0.013 0.019
+2020-03-31 03:25:01,489 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/hr.expense/read HTTP/1.1" 200 - 9 0.006 0.008
+2020-03-31 03:25:01,491 1 INFO twtrubiks odoo.addons.base.models.ir_attachment: filestore gc 444 checked, 5 removed 
+2020-03-31 03:25:01,559 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_button HTTP/1.1" 200 - 39 0.022 0.031
+2020-03-31 03:25:01,565 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.006 21.682
+2020-03-31 03:25:01,571 1 INFO twtrubiks odoo.addons.base.models.ir_autovacuum: GC'd 1 user log entries 
+2020-03-31 03:25:01,575 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2020-03-31 03:25:01,576 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2020-03-31 03:25:01,600 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2020-03-31 03:25:01,601 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2020-03-31 03:25:01,618 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/hr.expense.sheet/read HTTP/1.1" 200 - 22 0.019 0.022
+2020-03-31 03:25:01,622 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2020-03-31 03:25:01,623 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-03-31 03:25:01,639 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2020-03-31 03:25:01,640 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-03-31 03:25:01,650 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/hr.expense/read HTTP/1.1" 200 - 9 0.007 0.011
+2020-03-31 03:25:01,654 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2020-03-31 03:25:01,655 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2020-03-31 03:25:01,669 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2020-03-31 03:25:01,671 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-03-31 03:25:01,688 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2020-03-31 03:25:01,689 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `HR Contract: update state`. 
+2020-03-31 03:25:01,699 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 27 0.019 0.017
+2020-03-31 03:25:01,769 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `HR Contract: update state` done. 
+2020-03-31 03:25:01,774 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "GET /web/image/res.users/2/image_128 HTTP/1.1" 200 - 8 0.012 0.018
+2020-03-31 03:25:01,776 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-03-31 03:25:01,790 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /mail/read_followers HTTP/1.1" 200 - 17 0.030 0.014
+2020-03-31 03:25:01,796 1 INFO twtrubiks odoo.addons.base.models.ir_cron: Job `Mail: Notify channel moderators` done. 
+2020-03-31 03:25:01,799 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:01] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 18 0.017 0.023
+2020-03-31 03:25:03,443 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "POST /web/action/load HTTP/1.1" 200 - 73 0.027 0.039
+2020-03-31 03:25:03,585 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "POST /web/dataset/call_kw/hr.employee/load_views HTTP/1.1" 200 - 93 0.039 0.094
+2020-03-31 03:25:03,630 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "POST /web/dataset/call_kw/hr.employee/search_panel_select_range HTTP/1.1" 200 - 13 0.005 0.007
+2020-03-31 03:25:03,691 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 10 0.004 0.011
+2020-03-31 03:25:03,710 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "POST /web/dataset/call_kw/hr.employee.category/read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-31 03:25:03,839 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=17&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.008 0.029
+2020-03-31 03:25:03,840 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=20&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 14 0.027 0.021
+2020-03-31 03:25:03,853 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=9&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 14 0.028 0.026
+2020-03-31 03:25:03,854 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=3&field=image_128&unique=03312020112426 HTTP/1.1" 200 - 14 0.034 0.025
+2020-03-31 03:25:03,854 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=15&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.013 0.037
+2020-03-31 03:25:03,871 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=19&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.011 0.014
+2020-03-31 03:25:03,872 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=18&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.006 0.017
+2020-03-31 03:25:03,906 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=8&field=image_128&unique=03312020112426 HTTP/1.1" 200 - 5 0.004 0.034
+2020-03-31 03:25:03,907 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=6&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.011 0.029
+2020-03-31 03:25:03,907 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=11&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.011 0.032
+2020-03-31 03:25:03,911 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=7&field=image_128&unique=03312020112426 HTTP/1.1" 200 - 5 0.012 0.023
+2020-03-31 03:25:03,921 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=1&field=image_128&unique=03312020112426 HTTP/1.1" 200 - 5 0.014 0.023
+2020-03-31 03:25:03,941 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=14&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.007 0.021
+2020-03-31 03:25:03,961 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=16&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.004 0.037
+2020-03-31 03:25:03,971 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=5&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.012 0.030
+2020-03-31 03:25:03,971 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=2&field=image_128&unique=03312020112426 HTTP/1.1" 200 - 5 0.006 0.033
+2020-03-31 03:25:03,981 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=4&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.010 0.036
+2020-03-31 03:25:03,986 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=12&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.008 0.021
+2020-03-31 03:25:03,989 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=10&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.004 0.012
+2020-03-31 03:25:03,999 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:03] "GET /web/image?model=hr.employee&id=13&field=image_128&unique=03312020112413 HTTP/1.1" 200 - 5 0.004 0.016
+2020-03-31 03:25:04,531 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:04] "POST /web/dataset/call_kw/hr.employee/default_get HTTP/1.1" 200 - 5 0.004 0.014
+2020-03-31 03:25:04,640 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:04] "POST /web/dataset/call_kw/hr.employee/onchange HTTP/1.1" 200 - 14 0.008 0.035
+2020-03-31 03:25:04,651 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:04] "POST /web/dataset/call_kw/resource.calendar/name_get HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-31 03:25:04,676 1 INFO ? werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:04] "GET /web/static/src/xml/ribbon.xml HTTP/1.1" 200 - - - -
+2020-03-31 03:25:07,135 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /web/dataset/call_kw/hr.employee/create HTTP/1.1" 200 - 56 0.025 0.053
+2020-03-31 03:25:07,170 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /web/dataset/call_kw/hr.employee/read HTTP/1.1" 200 - 19 0.010 0.016
+2020-03-31 03:25:07,195 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 8 0.007 0.007
+2020-03-31 03:25:07,267 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.005 0.010
+2020-03-31 03:25:07,280 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "GET /web/image?model=hr.employee&id=21&field=image_128&unique=03312020112507 HTTP/1.1" 200 - 5 0.003 0.012
+2020-03-31 03:25:07,296 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 17 0.017 0.016
+2020-03-31 03:25:07,301 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:07] "POST /hr/get_org_chart HTTP/1.1" 200 - 13 0.008 0.010
+2020-03-31 03:25:08,600 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 7 0.003 0.012
+2020-03-31 03:25:08,621 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:08] "POST /web/dataset/call_kw/hr.employee.category/read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-31 03:25:08,848 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:08] "GET /web/image?model=hr.employee&id=21&field=image_1920&unique=03312020112507 HTTP/1.1" 200 - 5 0.002 0.007
+2020-03-31 03:25:23,083 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:23] "GET /web/image?model=hr.employee&id=2&field=image_1920&unique=03312020112426 HTTP/1.1" 200 - 5 0.002 0.007
+2020-03-31 03:25:23,214 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:23] "GET /web/image?model=hr.employee&id=7&field=image_1920&unique=03312020112426 HTTP/1.1" 200 - 5 0.002 0.006
+2020-03-31 03:25:23,333 1 INFO twtrubiks werkzeug: 172.19.0.1 - - [31/Mar/2020 03:25:23] "GET /web/image?model=hr.employee&id=15&field=image_1920&unique=03312020112413 HTTP/1.1" 200 - 5 0.002 0.006
+2020-03-31 03:25:30,708 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-31 03:25:30,708 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
