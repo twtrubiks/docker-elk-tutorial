@@ -7,13 +7,10 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     volumes:
-      - type: bind
-        source: ./elasticsearch/config/elasticsearch.yml
-        target: /usr/share/elasticsearch/config/elasticsearch.yml
-        read_only: true
-      - type: volume
-        source: elasticsearch
-        target: /usr/share/elasticsearch/data
+      # z: the volume content will be shared between containers
+      # ro : container read-only
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro,z
+      - elasticsearch:/usr/share/elasticsearch/data:z
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -25,6 +22,11 @@ services:
       discovery.type: single-node
     networks:
       - elk
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "1"
+        max-size: "200m"
 
   logstash:
     build:
@@ -32,18 +34,11 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     volumes:
-      - type: bind
-        source: ./logstash/config/logstash.yml
-        target: /usr/share/logstash/config/logstash.yml
-        read_only: true
-      - type: bind
-        source: ./logstash/pipeline
-        target: /usr/share/logstash/pipeline
-        read_only: true
-      - type: bind
-        source: ./mydata
-        target: /usr/mydata
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro,z
+      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro,z
+      - ./mydata:/usr/mydata
     ports:
+      - "5044:5044"
       - "5000:5000/tcp"
       - "5000:5000/udp"
       - "9600:9600"
@@ -53,6 +48,11 @@ services:
       - elk
     depends_on:
       - elasticsearch
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "1"
+        max-size: "200m"
 
   kibana:
     build:
@@ -60,16 +60,18 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     volumes:
-      - type: bind
-        source: ./kibana/config/kibana.yml
-        target: /usr/share/kibana/config/kibana.yml
-        read_only: true
+      - ./kibana/config/kibana.yml:/usr/share/kibana/config/kibana.yml:ro,z
     ports:
       - "5601:5601"
     networks:
       - elk
     depends_on:
       - elasticsearch
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "1"
+        max-size: "200m"
 
 networks:
   elk:
