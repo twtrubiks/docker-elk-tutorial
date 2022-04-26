@@ -2,10 +2,7 @@ version: '3.7'
 
 services:
   filebeat:
-    build:
-      context: extensions/filebeat/
-      args:
-        ELASTIC_VERSION: ${ELASTIC_VERSION}
+    image: docker.elastic.co/beats/filebeat:7.17.3
     # Run as 'root' instead of 'filebeat' (uid 1000) to allow reading
     # 'docker.sock' and the host's filesystem.
     user: root
@@ -17,7 +14,7 @@ services:
       # see: https://www.elastic.co/guide/en/beats/libbeat/7.17/config-file-permissions.html
       - --strict.perms=false
     volumes:
-      - ./extensions/filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro,Z
+      - ./config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro,Z
       - type: bind
         source: /var/lib/docker/containers
         target: /var/lib/docker/containers
@@ -27,8 +24,8 @@ services:
         target: /var/run/docker.sock
         read_only: true
     environment:
-      ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:-}
-    networks:
-      - elk
-    depends_on:
-      - elasticsearch
+      ELASTIC_PASSWORD: changeme
+    # networks:
+    #   - elk
+    # depends_on:
+    #   - elasticsearch
