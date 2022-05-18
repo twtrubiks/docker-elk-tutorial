@@ -1,4 +1,12 @@
-# apm-server
+# Apm-Server
+
+* [Youtube Tutorial - Docker ELK APM services 教學](https://youtu.be/j_iNhl1Cp_Y)
+
+官方介紹以及架構圖可參考 [apm-components](https://www.elastic.co/guide/en/apm/guide/current/apm-components.html).
+
+APM 全名是 Application Performance Monitoring,
+
+簡單說, 就是監控你的 Application 的效能.
 
 啟動
 
@@ -38,7 +46,7 @@ app.config['ELASTIC_APM'] = {
     # Use if APM Server requires a token
     'SECRET_TOKEN': '',
     'SERVICE_NAME': 'PYTHON_FLASK_TEST_APP',
-    'SERVER_URL': 'http://192.168.7.87:8200',
+    'SERVER_URL': 'http://YOUR_IP:8200',
     'DEBUG': True,
 }
 
@@ -65,6 +73,8 @@ def hello_world():
 export FLASK_APP=client.py
 flask run
 ```
+
+官方 APM Pyhton 文件可參考 [Flask support](https://www.elastic.co/guide/en/apm/agent/python/current/flask-support.html)
 
 ## 步驟流程
 

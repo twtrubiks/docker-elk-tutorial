@@ -12,7 +12,7 @@ app.config['ELASTIC_APM'] = {
     # Use if APM Server requires a token
     'SECRET_TOKEN': '',
     'SERVICE_NAME': 'PYTHON_FLASK_TEST_APP',
-    'SERVER_URL': 'http://192.168.7.87:8200',
+    'SERVER_URL': 'http://YOUR_IP:8200',
     'DEBUG': True,
 }
 

@@ -10,6 +10,28 @@
 
 本篇會使用 odoo 的 log 來當範例, 請參考 [如何啟用 odoo 中的 Logging](https://github.com/twtrubiks/odoo-docker-tutorial#%E5%A6%82%E4%BD%95%E5%95%9F%E7%94%A8-odoo-%E4%B8%AD%E7%9A%84-logging)
 
+## 其他 extensions 教學
+
+### Apm-Server
+
+* [apm-server](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/apm-server) - [Youtube Tutorial - Docker ELK APM services 教學](https://youtu.be/j_iNhl1Cp_Y)
+
+### Beat
+
+官方介紹以及架構圖 [What are Beats?](https://www.elastic.co/guide/en/beats/libbeat/8.1/beats-reference.html)
+
+Beat 通常可以發給 Elasticsearch 或 Logstash, 如果沒有要進一步的處理資料,
+
+通常會直接轉發給 Elasticsearch, 除非要進一步處理資料, 才會轉發給 Logstash,
+
+而且 Logstash 對 ram, cpu, io 這類消耗比較高.
+
+Beat 家族有很多, 都屬於輕量級收集日誌的工具, 這邊只介紹以下幾個,
+
+* [filebeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/filebeat) - Log files and journals - [(等待新增)Youtube Tutorial - Docker ELK Filebeat 教學]()
+
+* [metricbeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/metricbeat) - Metrics - [(等待新增)Youtube Tutorial - Docker ELK Metricbeat 教學]()
+
 ## 教學
 
 注意事項一.

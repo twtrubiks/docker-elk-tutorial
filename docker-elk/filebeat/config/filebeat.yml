@@ -7,6 +7,15 @@ filebeat.config:
     path: ${path.config}/modules.d/*.yml
     reload.enabled: false
 
+filebeat.modules:
+ - module: nginx
+   access:
+     enabled: true
+     var.paths: ["/usr/share/filebeat/nginx/access.log"]
+   error:
+     enabled: true
+     var.paths: ["/usr/share/filebeat/nginx/error.log"]
+
 filebeat.autodiscover:
   providers:
     # The Docker autodiscover provider automatically retrieves logs from Docker
@@ -22,6 +31,9 @@ filebeat.autodiscover:
       #         paths:
       #           - /var/lib/docker/containers/${data.docker.container.id}/*.log
       #         exclude_lines: ["^\\s+[\\-`('.|_]"]  # drop asciiart lines
+      #         multiline.pattern: '^[[:space:]]'
+      #         multiline.negate: false
+      #         multiline.match: after
 
       #   - condition:
       #       contains:
@@ -30,7 +42,12 @@ filebeat.autodiscover:
       #       - type: container
       #         paths:
       #           - /var/lib/docker/containers/${data.docker.container.id}/*.log
+      #          ## snap install docker
+      #           - /var/snap/docker/common/var-lib-docker/containers/${data.docker.container.id}/*.log
       #         exclude_lines: ["^\\s+[\\-`('.|_]"]  # drop asciiart lines
+      #         multiline.pattern: '^[[:space:]]'
+      #         multiline.negate: false
+      #         multiline.match: after
 
 
 processors:
@@ -38,7 +55,7 @@ processors:
 
 output.elasticsearch:
   #hosts: ['http://elasticsearch:9200']
-  hosts: ['192.168.7.87:9200']
+  hosts: ['YOUR_IP:9200']
   username: elastic
   password: changeme
 

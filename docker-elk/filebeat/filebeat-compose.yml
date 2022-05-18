@@ -18,11 +18,18 @@ services:
       - type: bind
         source: /var/lib/docker/containers
         target: /var/lib/docker/containers
+        # snap install docker
+        # source: /var/snap/docker/common/var-lib-docker/containers
+        # target: /var/snap/docker/common/var-lib-docker/containers
         read_only: true
       - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
         read_only: true
+      # - type: bind
+      #   source: YOUR_NGINX_LOG/nginx_log/
+      #   target: /usr/share/filebeat/nginx/
+      #   read_only: true
     environment:
       ELASTIC_PASSWORD: changeme
     # networks:
