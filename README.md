@@ -117,3 +117,80 @@ logTimestamp 為 server 時間,
 local_time 為 本地時間 (logTimestamp + 8).
 
 ![alt tag](https://i.imgur.com/Lvu5y4r.png)
+
+## 刪除 elasticsearch index 教學
+
+elasticsearch 上的 log 一定要記得定期刪除,
+
+否則硬碟很快就會炸掉了,
+
+提供兩種方法刪除, 分別是直接 call API, 或是使用 curator,
+
+搭配自己喜歡的, 再加上 [crontab](https://github.com/twtrubiks/linux-note/tree/master/crontab-tutorual) 就可以自動刪除了.
+
+### 使用 API
+
+先使用 [cat indices API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-indices.html),
+
+取出你的 indices
+
+```cmd
+❯ curl -u elastic:changeme -GET http://YOUR_IP:9200/_cat/indices
+green  open .apm-agent-configuration          mFn_ypTbQzimQ0Xnv6OV9A 1 0        0      0    226b    226b
+green  open .tasks                            w_2xwED5QGCHCfML7KjhvA 1 0        5      0  28.1kb  28.1kb
+green  open .geoip_databases                  h86_d2dDSVOREY32svJG9Q 1 0       41     41  38.8mb  38.8mb
+```
+
+`-u` 後面是你的帳號:密碼
+
+之後在看你想要刪掉哪些,
+
+再執行 ( 這邊刪除 `.apm-agent-configuration` )
+
+```cmd
+❯ curl -u elastic:changeme -XDELETE 'http://YOUR_IP:9200/.apm-agent-configuration*?pretty'
+{
+  "acknowledged" : true
+}
+```
+
+這樣就成功刪除了.
+
+### curator
+
+另一種方法是使用 curator 這個 library,
+
+安裝指令,
+
+```cmd
+pip install elasticsearch-curator
+```
+
+範例 code,
+
+```python
+import elasticsearch
+import curator
+
+client = elasticsearch.Elasticsearch(
+    [
+        "http://elastic:changeme@YOUR_IP:9200/",
+    ],
+    verify_certs=True,
+)
+
+
+ilo = curator.IndexList(client)
+ilo.filter_by_regex(kind="prefix", value="myindex-")
+# ilo.filter_by_age(source='name', direction='older', timestring='%Y.%m.%d', unit='days', unit_count=30)
+delete_indices = curator.DeleteIndices(ilo)
+delete_indices.do_action()
+```
+
+文件可參考
+
+* [https://github.com/elastic/curator](https://github.com/elastic/curator)
+
+* [https://www.elastic.co/guide/en/elasticsearch/client/curator/current/pip.html](https://www.elastic.co/guide/en/elasticsearch/client/curator/current/pip.html)
+
+* [https://curator.readthedocs.io/en/latest/](https://curator.readthedocs.io/en/latest/)
