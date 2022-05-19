@@ -58,6 +58,14 @@ output.elasticsearch:
   hosts: ['YOUR_IP:9200']
   username: elastic
   password: changeme
+  # create index by daily
+  index: "filebeat1-%{[agent.version]}-%{+yyyy.MM.dd}"
+  # create index by weekly
+  # index: "filebeat1-%{[agent.version]}-%{+xxxx.ww}"
+
+setup.template.name: "filebeat1"
+setup.template.pattern: "filebeat1-*"
+setup.ilm.enabled: false
 
 ## HTTP endpoint for health checking
 ## https://www.elastic.co/guide/en/beats/filebeat/7.17/http-endpoint.html

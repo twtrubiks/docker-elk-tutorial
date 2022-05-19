@@ -209,3 +209,31 @@ nginx module 中會有一些直接就可以使用的 fields
 如果直接送, 會有亂碼 (terminal 的顏色造成的亂碼, 會影響分析:anguished:),
 
 所以最後改成寫入檔案中:smile:
+
+### daily auto create index
+
+這邊的設定是可以設定 daily 建立 index, weekly 建立 index,
+
+可以依照自己的需求調整.
+
+記住要加上 `setup.ilm.enabled: false`
+
+```yml
+output.elasticsearch:
+  #hosts: ['http://elasticsearch:9200']
+  hosts: ['YOUR_IP:9200']
+  username: elastic
+  password: changeme
+  # create index by daily
+  index: "filebeat1-%{[agent.version]}-%{+yyyy.MM.dd}"
+  # create index by weekly
+  # index: "filebeat1-%{[agent.version]}-%{+xxxx.ww}"
+
+setup.template.name: "filebeat1"
+setup.template.pattern: "filebeat1-*"
+setup.ilm.enabled: false
+```
+
+![alt tag](https://i.imgur.com/5sS82EI.png)
+
+官方文件可參考 [Configure the Elasticsearch output](https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html)
