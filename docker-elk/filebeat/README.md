@@ -1,6 +1,8 @@
 # Filebeat
 
-* [(等待新增)Youtube Tutorial - Docker ELK Filebeat 教學]()
+* [Youtube Tutorial - Docker ELK Filebeat 教學](https://youtu.be/LS8RsFzbTFo)
+
+* [Youtube Tutorial - Create daily indices 教學](https://youtu.be/A8EIa9FH8sY) - [文章快速連結](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/filebeat#create-daily-indices)
 
 官方介紹可參考 [Filebeat-Overview](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html#filebeat-overview).
 
@@ -210,9 +212,11 @@ nginx module 中會有一些直接就可以使用的 fields
 
 所以最後改成寫入檔案中:smile:
 
-### daily auto create index
+### Create daily indices
 
-這邊的設定是可以設定 daily 建立 index, weekly 建立 index,
+* [Youtube Tutorial - Create daily indices 教學](https://youtu.be/A8EIa9FH8sY)
+
+這邊的設定是可以 daily 建立 index, weekly 建立 index,
 
 可以依照自己的需求調整.
 

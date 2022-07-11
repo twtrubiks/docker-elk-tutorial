@@ -2,6 +2,10 @@
 
 * [Youtube Tutorial - Linux 教學 - docker-elk-tutorial 7.6.0](https://youtu.be/iWFasUQ1tNQ)
 
+* [Youtube Tutorial - 刪除 elasticsearch index 教學](https://youtu.be/Qooa32JlOAk) - [文章快速連結](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0#%E5%88%AA%E9%99%A4-elasticsearch-index-%E6%95%99%E5%AD%B8)
+
+* [Youtube Tutorial - Index Lifecycle Management(ILM)教學](https://youtu.be/cFmBuzUgAQ8) - [文章快速連結](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/ILM_tutorial)
+
 這篇是 elk 基礎 2.0,
 
 如果你還沒看過基礎篇, 請參考 [master分支](https://github.com/twtrubiks/docker-elk-tutorial/tree/master)
@@ -28,9 +32,9 @@ Beat 通常可以發給 Elasticsearch 或 Logstash, 如果沒有要進一步的�
 
 Beat 家族有很多, 都屬於輕量級收集日誌的工具, 這邊只介紹以下幾個,
 
-* [filebeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/filebeat) - Log files and journals - [(等待新增)Youtube Tutorial - Docker ELK Filebeat 教學]()
+* [filebeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/filebeat) - Log files and journals - [Youtube Tutorial - Docker ELK Filebeat 教學](https://youtu.be/LS8RsFzbTFo)
 
-* [metricbeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/metricbeat) - Metrics - [(等待新增)Youtube Tutorial - Docker ELK Metricbeat 教學]()
+* [metricbeat](https://github.com/twtrubiks/docker-elk-tutorial/tree/elk-7.6.0/docker-elk/metricbeat) - Metrics - [Youtube Tutorial - Docker ELK Metricbeat 教學](https://youtu.be/ocqhi23ETnw)
 
 ## 教學
 
@@ -120,6 +124,8 @@ local_time 為 本地時間 (logTimestamp + 8).
 
 ## 刪除 elasticsearch index 教學
 
+* [Youtube Tutorial - 刪除 elasticsearch index 教學](https://youtu.be/Qooa32JlOAk)
+
 elasticsearch 上的 log 一定要記得定期刪除,
 
 否則硬碟很快就會炸掉了,
@@ -183,6 +189,7 @@ client = elasticsearch.Elasticsearch(
 ilo = curator.IndexList(client)
 ilo.filter_by_regex(kind="prefix", value="myindex-")
 # ilo.filter_by_age(source='name', direction='older', timestring='%Y.%m.%d', unit='days', unit_count=30)
+# print(ilo.indices)
 delete_indices = curator.DeleteIndices(ilo)
 delete_indices.do_action()
 ```
