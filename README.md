@@ -176,6 +176,11 @@ output {
 curl -XPOST -D- "http://localhost:5601/api/saved_objects/index-pattern" \
     -H "Content-Type: application/json" \
     -H "kbn-version: 6.1.0" \
+    -d '{"attributes":{"title":"logstash-*","timeFieldName":"@timestamp"}}'
+```
+
+如果上面的指令有報有關json格式錯誤的問題，也可以試試看將最後一行改為：
+```cmd
     -d "{'attributes':{'title':'logstash-*','timeFieldName':'@timestamp'}}"
 ```
 
